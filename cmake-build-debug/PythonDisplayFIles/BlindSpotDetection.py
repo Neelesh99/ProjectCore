@@ -1,0 +1,2 @@
+
+print("Blind Spot Detected")
