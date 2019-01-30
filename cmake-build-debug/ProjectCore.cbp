@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ProjectCore">
-				<Option output="C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/ProjectCore.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug"/>
+				<Option output="C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/ProjectCore.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProjectCore"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProjectCore"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ProjectCore/fast">
-				<Option output="C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/ProjectCore.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug"/>
+				<Option output="C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/ProjectCore.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,79 +53,79 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProjectCore/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProjectCore/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCore/CommuncationsBuffer.cpp">
+		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/CommuncationsBuffer.cpp">
 			<Option target="ProjectCore"/>
 		</Unit>
-		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCore/CommuncationsBuffer.hpp">
+		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/CommuncationsBuffer.hpp">
 			<Option target="ProjectCore"/>
 		</Unit>
-		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCore/Communication.cpp">
+		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/Communication.cpp">
 			<Option target="ProjectCore"/>
 		</Unit>
-		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCore/Communication.hpp">
+		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/Communication.hpp">
 			<Option target="ProjectCore"/>
 		</Unit>
-		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCore/Controller.cpp">
+		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/Controller.cpp">
 			<Option target="ProjectCore"/>
 		</Unit>
-		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCore/Controller.hpp">
+		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/Controller.hpp">
 			<Option target="ProjectCore"/>
 		</Unit>
-		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCore/SensorHandler.cpp">
+		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/SensorHandler.cpp">
 			<Option target="ProjectCore"/>
 		</Unit>
-		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCore/SensorHandler.hpp">
+		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/SensorHandler.hpp">
 			<Option target="ProjectCore"/>
 		</Unit>
-		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCore/State.cpp">
+		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/State.cpp">
 			<Option target="ProjectCore"/>
 		</Unit>
-		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCore/State.hpp">
+		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/State.hpp">
 			<Option target="ProjectCore"/>
 		</Unit>
-		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCore/StateMachine.cpp">
+		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/StateMachine.cpp">
 			<Option target="ProjectCore"/>
 		</Unit>
-		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCore/StateMachine.hpp">
+		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/StateMachine.hpp">
 			<Option target="ProjectCore"/>
 		</Unit>
-		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCore/SymphonyNetwork.cpp">
+		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/SymphonyNetwork.cpp">
 			<Option target="ProjectCore"/>
 		</Unit>
-		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCore/SymphonyNetwork.hpp">
+		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/SymphonyNetwork.hpp">
 			<Option target="ProjectCore"/>
 		</Unit>
-		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCore/main.cpp">
+		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/main.cpp">
 			<Option target="ProjectCore"/>
 		</Unit>
-		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCore/CMakeLists.txt">
+		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

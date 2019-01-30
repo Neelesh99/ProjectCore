@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Neelesh/CLionProject/ProjectCore/CommuncationsBuffer.cpp" "C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/CMakeFiles/ProjectCore.dir/CommuncationsBuffer.cpp.obj"
-  "C:/Users/Neelesh/CLionProject/ProjectCore/Communication.cpp" "C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/CMakeFiles/ProjectCore.dir/Communication.cpp.obj"
-  "C:/Users/Neelesh/CLionProject/ProjectCore/Controller.cpp" "C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/CMakeFiles/ProjectCore.dir/Controller.cpp.obj"
-  "C:/Users/Neelesh/CLionProject/ProjectCore/SensorHandler.cpp" "C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/CMakeFiles/ProjectCore.dir/SensorHandler.cpp.obj"
-  "C:/Users/Neelesh/CLionProject/ProjectCore/State.cpp" "C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/CMakeFiles/ProjectCore.dir/State.cpp.obj"
-  "C:/Users/Neelesh/CLionProject/ProjectCore/StateMachine.cpp" "C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/CMakeFiles/ProjectCore.dir/StateMachine.cpp.obj"
-  "C:/Users/Neelesh/CLionProject/ProjectCore/SymphonyNetwork.cpp" "C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/CMakeFiles/ProjectCore.dir/SymphonyNetwork.cpp.obj"
-  "C:/Users/Neelesh/CLionProject/ProjectCore/main.cpp" "C:/Users/Neelesh/CLionProject/ProjectCore/cmake-build-debug/CMakeFiles/ProjectCore.dir/main.cpp.obj"
+  "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/CommuncationsBuffer.cpp" "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/CMakeFiles/ProjectCore.dir/CommuncationsBuffer.cpp.obj"
+  "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/Communication.cpp" "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/CMakeFiles/ProjectCore.dir/Communication.cpp.obj"
+  "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/Controller.cpp" "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/CMakeFiles/ProjectCore.dir/Controller.cpp.obj"
+  "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/SensorHandler.cpp" "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/CMakeFiles/ProjectCore.dir/SensorHandler.cpp.obj"
+  "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/State.cpp" "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/CMakeFiles/ProjectCore.dir/State.cpp.obj"
+  "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/StateMachine.cpp" "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/CMakeFiles/ProjectCore.dir/StateMachine.cpp.obj"
+  "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/SymphonyNetwork.cpp" "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/CMakeFiles/ProjectCore.dir/SymphonyNetwork.cpp.obj"
+  "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/main.cpp" "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/CMakeFiles/ProjectCore.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
