@@ -14,6 +14,22 @@ StateMachine::StateMachine(SYptr Symphony, SHptr Sensor, CTptr Control,
     current_state = 1;
     Log = Logfile;
 }
+std::string StateMachine::pullValue(StringInstruction s, int stat, std::vector<std::string> store) {
+
+}
+bool StateMachine::CheckStateChange(){
+    std::ifstream file("StateChangeMap.map");
+    try{
+        if(file.is_open()){
+            std::vector<std::string> truthtable;
+            std::string temp;
+            while(file >> temp){
+                truthtable.push_back(temp);
+            }
+            std::string booleanvalue = pullValue(CurrentInstruction,current_state,truthtable);
+        }
+    }
+}
 bool StateMachine::StateChangeCall(std::string command, std::string instruction, std::string elaboration, int datano, std::vector<std::string> data){
     CurrentCommand = StringToEnumCommand(command);
     CurrentInstruction = StringToEnumInstruction(instruction);
