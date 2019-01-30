@@ -17,7 +17,7 @@ StateMachine::StateMachine(SYptr Symphony, SHptr Sensor, CTptr Control,
 std::string StateMachine::pullValue(StringInstruction s, int stat, std::vector<std::string> store) {
 
 }
-bool StateMachine::CheckStateChange(){
+bool StateMachine::CheckStateChange(int &exception){
     std::ifstream file("StateChangeMap.map");
     try{
         if(file.is_open()){
@@ -28,6 +28,12 @@ bool StateMachine::CheckStateChange(){
             }
             std::string booleanvalue = pullValue(CurrentInstruction,current_state,truthtable);
         }
+        else{
+            throw 7;
+        }
+    }
+    catch(int &e){
+        exception = e;
     }
 }
 bool StateMachine::StateChangeCall(std::string command, std::string instruction, std::string elaboration, int datano, std::vector<std::string> data){

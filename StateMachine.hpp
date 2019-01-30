@@ -57,7 +57,7 @@ public:
     bool StateChangeCall(std::string command, std::string instruction, std::string elaboration, int datano, std::vector<std::string> data);
     StringCommand StringToEnumCommand(std::string command);
     StringInstruction StringToEnumInstruction(std::string instruction);
-    bool CheckStateChange();
+    bool CheckStateChange(int &exception);
     std::string pullValue(StringInstruction s, int stat, std::vector<std::string> store);
 };
 
