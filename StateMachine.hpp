@@ -20,7 +20,27 @@ typedef SensorHandler* SHptr;
 typedef Controller* CTptr;
 typedef Communication* CMptr;
 typedef CommunicationsBuffer* CBptr;
-
+typedef std::ofstream* Fiptr;
+enum StringCommand{
+    eINST,
+    eEXEC,
+};
+enum StringInstruction{
+    eDBUG,
+    eRSET,
+    eBATR,
+    eBTDC,
+    eFALL,
+    eBLND,
+    ePWRN,
+    eBTWT,
+    eCLKS,
+    eBTRC,
+    eSTNV,
+    eTURN,
+    eREGE,
+    eFINI
+};
 class StateMachine {
 private:
     int current_state = 1;
@@ -29,8 +49,14 @@ private:
     CTptr Controls;
     CMptr Comms;
     CBptr Commsbuffer;
+    StringCommand CurrentCommand;
+    StringInstruction CurrentInstruction;
+    Fiptr Log;
 public:
-    StateMachine(SYptr Symphony, SHptr Sensor, CTptr Control, CMptr Commun, CBptr CommsBuffer);
+    StateMachine(SYptr Symphony, SHptr Sensor, CTptr Control, CBptr CommsBuffer, Fiptr Logfile);
+    bool StateChangeCall(std::string command, std::string instruction, std::string elaboration, int datano, std::vector<std::string> data);
+    StringCommand StringToEnumCommand(std::string command);
+    StringInstruction StringToEnumInstruction(std::string instruction);
 
 };
 
