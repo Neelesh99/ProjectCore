@@ -6,6 +6,8 @@
 #include "CommuncationsBuffer.hpp"
 #include "Communication.hpp"
 #include "State.hpp"
+#include <chrono>
+#include <ctime>
 
 typedef std::vector<int>* viptr;
 typedef SymphonyNetwork* Syptr;
@@ -13,7 +15,7 @@ typedef std::string* Stptr;
 typedef CommunicationsBuffer* Cbptr;
 typedef std::ofstream* Fiptr;
 
-Fiptr StartLogFile();
+Fiptr StartLogFile(int &exception);
 
 class MachineLearningCore{
 private:
@@ -40,47 +42,47 @@ public:
             std::ifstream BlindConfig(*ConfigFileBlindSpotDetection);
             WeightingFall = *WeightingFallDetection;
             WeightingBlindSpot = *WeightingBlindSpotDetection;
-                if (!is_empty(FallConfig)) {
-                    FallConfig >> Fall_Input_Nodes;
-                    FallConfig >> Fall_Interlayer_Count;
-                    for (int i = 0; i < Fall_Interlayer_Count; i++) {
-                        int temp;
-                        FallConfig >> temp;
-                        Fall_Interlayer_Nodes.push_back(temp);
-                    }
-                    FallConfig >> Fall_Output_Nodes;
-                    Fall_Interlayer = &Fall_Interlayer_Nodes;
-                    FallConfig.close();
-                    std::cout << "Fall Detection Network Loaded and ready to initialise" << std::endl;
+            if (!is_empty(FallConfig)) {
+                FallConfig >> Fall_Input_Nodes;
+                FallConfig >> Fall_Interlayer_Count;
+                for (int i = 0; i < Fall_Interlayer_Count; i++) {
+                    int temp;
+                    FallConfig >> temp;
+                    Fall_Interlayer_Nodes.push_back(temp);
                 }
-                else {
-                    std::cout << "Fall Config File is Empty, fatal error, exception thrown" << std::endl;
-                    throw 4;
-                }
+                FallConfig >> Fall_Output_Nodes;
+                Fall_Interlayer = &Fall_Interlayer_Nodes;
+                FallConfig.close();
+                std::cout << "Fall Detection Network Loaded and ready to initialise" << std::endl;
+            }
+            else {
+                std::cout << "Fall Config File is Empty, fatal error, exception thrown" << std::endl;
+                throw 4;
+            }
 
-                if (!is_empty(BlindConfig)) {
-                    BlindConfig >> Blind_Input_Nodes;
-                    BlindConfig >> Blind_Interlayer_Count;
-                    for (int i = 0; i < Blind_Interlayer_Count; i++) {
-                        int temp;
-                        BlindConfig >> temp;
-                        Blind_Interlayer_Nodes.push_back(temp);
-                    }
-                    BlindConfig >> Blind_Output_Nodes;
-                    Blind_Interlayer = &Blind_Interlayer_Nodes;
-                    BlindConfig.close();
-                    std::cout << "Blind Spot detection Network Loaded and ready to initialise" << std::endl;
-                } else {
-                    std::cout << "Blind Spot Config File is Empty, fatal error, exception thrown" << std::endl;
-                    throw 5;
+            if (!is_empty(BlindConfig)) {
+                BlindConfig >> Blind_Input_Nodes;
+                BlindConfig >> Blind_Interlayer_Count;
+                for (int i = 0; i < Blind_Interlayer_Count; i++) {
+                    int temp;
+                    BlindConfig >> temp;
+                    Blind_Interlayer_Nodes.push_back(temp);
                 }
+                BlindConfig >> Blind_Output_Nodes;
+                Blind_Interlayer = &Blind_Interlayer_Nodes;
+                BlindConfig.close();
+                std::cout << "Blind Spot detection Network Loaded and ready to initialise" << std::endl;
+            } else {
+                std::cout << "Blind Spot Config File is Empty, fatal error, exception thrown" << std::endl;
+                throw 5;
+            }
         }
         catch(int &e){
             exception = e;
         }
     }
     void Initialise_Fall_Detection(){
-        Syptr FP = new SymphonyNetwork(Fall_Input_Nodes,Fall_Interlayer_Count,Fall_Interlayer,Fall_Output_Nodes);
+        auto FP = new SymphonyNetwork(Fall_Input_Nodes,Fall_Interlayer_Count,Fall_Interlayer,Fall_Output_Nodes);
         std::ifstream FallFile(WeightingFall);
         if(FallFile.is_open()){
             FP -> readFromFile(WeightingFall);
@@ -102,7 +104,7 @@ public:
         return FallDetectionNetwork;
     }
     void Initialise_Blind_Spot_Detection(){
-        Syptr BP = new SymphonyNetwork(Blind_Input_Nodes,Blind_Interlayer_Count,Blind_Interlayer,Blind_Output_Nodes);
+        auto BP = new SymphonyNetwork(Blind_Input_Nodes,Blind_Interlayer_Count,Blind_Interlayer,Blind_Output_Nodes);
         std::ifstream BlindFile(WeightingBlindSpot);
         if(BlindFile.is_open()){
             BP->readFromFile(WeightingBlindSpot);
@@ -152,63 +154,100 @@ public:
                 std::cout << "Program exiting due to fatal error in Fall detection Config File Reading: \nCheck if file exists, and that it is in correct format" << std::endl;
             case 5:
                 std::cout << "Program exiting due to fatal error in Blind Spot detection Config File Reading: \nCheck if file exists, and that it is in correct format" << std::endl;
+            case 6:
+                std::cout << "Program Exiting due to fatal error in Logfile: \nCheck if the file exists and is in the correct format" << std::endl;
             default:
                 std::cout << "Unhandled Exception caused fatal error in program: \nCheck Log file if in Debug Mode" << std::endl;
         }
 
     }
 };
+class TimeClass{
+private:
+    int s;
+public:
+    explicit TimeClass(int ds){
+        s =ds;
+    }
+    std::string getTime(){
+        auto start = std::chrono::system_clock::now();
+        std::time_t end_time = std::chrono::system_clock::to_time_t(start);
+        return (std::ctime(&end_time));
+    }
+};
 
 int main() {
+    int exceptions = 0;
     Fiptr Logging;
-    Logging = StartLogFile();
-
-    /// Neural Netwrok INitialisationa nd savefile testing
-     /*
-    std::string f = "FallDetectCOnfig.scfg";
-    std::string ff = "BlindDetectConfig.scfg";
-    std::string g = "FallWeight.scfg";
-    std::string gg = "BlindWeight.scfg";
-    int exception;
-    Stptr fptr = &f;
-    Stptr ffptr = &ff;
-    Stptr gptr = &g;
-    Stptr ggptr = &gg;
-    MachineLearningCore m(fptr,ffptr,gptr,ggptr,exception);
-    if(exception != 0){
-        ExceptionHandler e(exception);
+    Logging = StartLogFile(exceptions);
+    if(exceptions != 0){
+        ExceptionHandler E(exceptions);
         return 1;
     }
-    Syptr Blptr;
-    Syptr Faptr;
-    std::thread tw1 = m.Init_Fall_thread();
-    std::thread tw2 = m.Init_Blind_Thread();
-    tw1.join();
-    tw2.join();
-    Faptr = m.getFallPointer();
-    Faptr->printData();
-    Blptr = m.getBlindPointer();
-    Blptr->printData();
+
+    /// Neural Network INitialisationa nd savefile testing /// Passed ///
+    /*
+   std::string f = "FallDetectCOnfig.scfg";
+   std::string ff = "BlindDetectConfig.scfg";
+   std::string g = "FallWeight.scfg";
+   std::string gg = "BlindWeight.scfg";
+   int exception;
+   Stptr fptr = &f;
+   Stptr ffptr = &ff;
+   Stptr gptr = &g;
+   Stptr ggptr = &gg;
+   MachineLearningCore m(fptr,ffptr,gptr,ggptr,exception);
+   if(exception != 0){
+       ExceptionHandler e(exception);
+       return 1;
+   }
+   Syptr Blptr;
+   Syptr Faptr;
+   std::thread tw1 = m.Init_Fall_thread();
+   std::thread tw2 = m.Init_Blind_Thread();
+   tw1.join();
+   tw2.join();
+   Faptr = m.getFallPointer();
+   Faptr->printData();
+   Blptr = m.getBlindPointer();
+   Blptr->printData();
 
 
-    Syptr Blptr;
-    Blptr = m.Initialise_Blind_Spot_Detection();
-    Syptr FAptr;
-    FAptr = m.Initialise_Fall_Detection();
-    Blptr -> printToFile(g);
-    FAptr -> printToFile(gg);
-    delete Blptr;
-    delete FAptr;
+   Syptr Blptr;
+   Blptr = m.Initialise_Blind_Spot_Detection();
+   Syptr FAptr;
+   FAptr = m.Initialise_Fall_Detection();
+   Blptr -> printToFile(g);
+   FAptr -> printToFile(gg);
+   delete Blptr;
+   delete FAptr;
+    */
+
+    ///State python calls testing /// Passed ///
+    /*
+    State s(Logging);
+    s.activateState();
+    s.Refresh();
      */
+    ///LOGFILE Testing ///
 
-     ///State python calls testing
-     State s(Logging);
-     s.activateState();
-     s.Refresh();
+
 
     return 0;
 }
-Fiptr StartLogFile(){
-    Fiptr s = new std::ofstream("Logfile.txt");
+Fiptr StartLogFile(int &exception){
+    TimeClass t(4);
+    auto s = new std::ofstream("Logfile.txt", std::ios_base::app | std::ios_base::out);
+    try {
+        if(s->is_open()) {
+            *s << t.getTime() << std::endl;
+        }
+        else{
+            throw 6;
+        }
+    }
+    catch(int &e){
+        exception = e;
+    }
     return s;
 }
