@@ -46,7 +46,9 @@ enum StringInstruction{
 };
 class StateMachine {
 private:
+    int refresh_count = 0;
     int current_state = 1;
+    State* Current_State;
     SYptr Symphonynetwork;
     SHptr Sensorhandler;
     CTptr Controls;
@@ -69,7 +71,7 @@ private:
     Debug_000* debug_screen;
 public:
     StateMachine(SYptr Symphony, SHptr Sensor, CTptr Control, CBptr CommsBuffer, Fiptr Logfile, int &exception);
-    bool StateChangeCall(std::string command, std::string instruction, std::string elaboration, int datano, std::vector<std::string> data);
+    bool StateChangeCall(std::string* command, std::string* instruction, std::string elaboration, int datano, std::vector<std::string> data);
     StringCommand StringToEnumCommand(std::string command);
     StringInstruction StringToEnumInstruction(std::string instruction);
     bool CheckStateChange();
@@ -77,6 +79,7 @@ public:
     void LoadValidityMap(int &exception);
     int GetValidityMapIndex(StringInstruction s);
     int xytoi(int x, int y);
+    void StateRefreshCall();
     ~StateMachine();
 };
 

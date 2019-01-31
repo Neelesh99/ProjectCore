@@ -69,6 +69,9 @@ int StateMachine::GetValidityMapIndex(StringInstruction s) {
     if(s == eFINI){
         return 13;
     }
+    else{
+        return -1;
+    }
 }
 int StateMachine::xytoi(int x, int y) {
     x++;
@@ -104,15 +107,18 @@ void StateMachine::LoadValidityMap(int &exception) {
 bool StateMachine::CheckStateChange(){
     return (pullValue(CurrentInstruction, current_state) == "true");
 }
-bool StateMachine::StateChangeCall(std::string command, std::string instruction, std::string elaboration, int datano, std::vector<std::string> data){
-    CurrentCommand = StringToEnumCommand(command);
-    CurrentInstruction = StringToEnumInstruction(instruction);
+bool StateMachine::StateChangeCall(std::string* command, std::string* instruction, std::string elaboration, int datano, std::vector<std::string> data){
+    refresh_count = 0;
+    CurrentCommand = StringToEnumCommand(*command);
+    CurrentInstruction = StringToEnumInstruction(*instruction);
     bool valid = false;
     switch(CurrentCommand){
         case eEXEC:
             *Log << "Executive Command passed on state " << current_state << std::endl;
         case eINST:
             *Log << "Instruction Command passed on state " << current_state << std::endl;
+        default:
+            *Log << "Invalid Command tree passed on state " << current_state << std::endl;
     }
     switch(CurrentInstruction) {
         case eDBUG:
@@ -121,6 +127,8 @@ bool StateMachine::StateChangeCall(std::string command, std::string instruction,
                 valid = CheckStateChange();
                 if(valid){
                     *Log << "Debug instruction validated by executive command tree, calling Debug State" << std::endl;
+                    Current_State = debug_screen;
+                    current_state = 0;
                     if(!(debug_screen->getStatus())) {
                         debug_screen->activateState();
                     }
@@ -135,12 +143,15 @@ bool StateMachine::StateChangeCall(std::string command, std::string instruction,
             else{
                 *Log << "Debug instruction passed on Non-Exectuive command tree, instruction ignored" << std::endl;
             }
+            return valid;
         case eRSET:
             *Log << "Reset instructional call passed on state " << current_state << std::endl;
             if(CurrentCommand == eEXEC){
                 valid = CheckStateChange();
                 if(valid){
                     *Log << "Reset instruction validated by executive command tree, calling Boot state" << std::endl;
+                    Current_State = boot;
+                    current_state = 2;
                     if(!(boot->getStatus())){
                         boot->activateState();
                     }
@@ -155,12 +166,15 @@ bool StateMachine::StateChangeCall(std::string command, std::string instruction,
             else{
                 *Log << "Debug instruction passed on Non-executive command tree, instruction ignored" << std::endl;
             }
+            return valid;
         case eBATR:
             *Log << "Low Battery instructional call passed on state " << current_state << std::endl;
             if(CurrentCommand == eEXEC){
                 valid = CheckStateChange();
                 if(valid){
                     *Log << "Low battery instruction validated by exectuive command tree, calling shut down state" << std::endl;
+                    Current_State = shutdown;
+                    current_state = 1;
                     if(!(shutdown->getStatus())){
                         shutdown->activateState();
                     }
@@ -175,12 +189,15 @@ bool StateMachine::StateChangeCall(std::string command, std::string instruction,
             else{
                 *Log << "Low battery passed on Non-executive command tree, instruction ignored" << std::endl;
             }
+            return valid;
         case eBTDC:
             *Log << "Bluetooth Link lost instructional call passed on state " << current_state << std::endl;
             if(CurrentCommand == eEXEC){
                 valid = CheckStateChange();
                 if(valid){
                     *Log << "Bluetooth Disconnect instruction validated by executive command tree, calling bluetooth wait screen" << std::endl;
+                    Current_State = btwait;
+                    current_state = 3;
                     if(!(btwait->getStatus())){
                         btwait->activateState();
                     }
@@ -195,12 +212,15 @@ bool StateMachine::StateChangeCall(std::string command, std::string instruction,
             else{
                 *Log << "BT link lost instruction passed on Non-executive command tree, instruction ignored" << std::endl;
             }
+            return valid;
         case eFALL:
             *Log << "Fall detection call passed on state " << current_state << std::endl;
             if(CurrentCommand == eEXEC){
                 valid = CheckStateChange();
                 if(valid){
                     *Log << "Fall detection instruction validated by executive command tree, calling fall detection screen" << std::endl;
+                    Current_State = fall_detection;
+                    current_state = 9;
                     if(!(fall_detection->getStatus())){
                         fall_detection->activateState();
                     }
@@ -215,12 +235,15 @@ bool StateMachine::StateChangeCall(std::string command, std::string instruction,
             else{
                 *Log << "Fall Detection instruction passed on Non-executive command tree, instruction ignored" << std::endl;
             }
+            return valid;
         case eBLND:
             *Log << "Blind Spot detection call passed on state " << current_state << std::endl;
             if(CurrentCommand == eEXEC){
                 valid = CheckStateChange();
                 if(valid){
                     *Log << "Blind Spot detection instruction validated by executive command tree, calling blind detection screen" << std::endl;
+                    Current_State = blind_spot;
+                    current_state = 10;
                     if(!(blind_spot->getStatus())){
                         blind_spot->activateState();
                     }
@@ -235,12 +258,15 @@ bool StateMachine::StateChangeCall(std::string command, std::string instruction,
             else{
                 *Log << "Blind Spot detection instruction passed on Non-executive command tree, instruction ignored" << std::endl;
             }
+            return valid;
         case ePWRN:
             *Log << "Power on call passed on state " << current_state << std::endl;
             if(CurrentCommand == eINST){
                 valid = CheckStateChange();
                 if(valid){
                     *Log << "Power on instruction validated by Instructional command tree, calling boot screen" << std::endl;
+                    Current_State = boot;
+                    current_state = 2;
                     if(!(boot->getStatus())){
                         boot->activateState();
                     }
@@ -255,12 +281,15 @@ bool StateMachine::StateChangeCall(std::string command, std::string instruction,
             else{
                 *Log << "Power on call passed on non-instructional command tree" << std::endl;
             }
+            return valid;
         case eBTWT:
             *Log << "Bluetooth Wait call passed on state " << current_state << std::endl;
             if(CurrentCommand == eINST){
                 valid = CheckStateChange();
                 if(valid){
                     *Log << "Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen" << std::endl;
+                    Current_State = btwait;
+                    current_state = 3;
                     if(!(btwait->getStatus())){
                         btwait->activateState();
                     }
@@ -275,12 +304,15 @@ bool StateMachine::StateChangeCall(std::string command, std::string instruction,
             else{
                 *Log << "Bluetooth wait call passed on non-instructional command tree" << std::endl;
             }
+            return valid;
         case eCLKS:
             *Log << "Go to Clock call passed on state " << current_state << std::endl;
             if(CurrentCommand == eINST){
                 valid = CheckStateChange();
                 if(valid){
                     *Log << "Clock screen call validated by Instructional command tree, calling Clock screen" << std::endl;
+                    Current_State = clockscreen;
+                    current_state = 4;
                     if(!(clockscreen->getStatus())){
                         clockscreen->activateState(elaboration);
                     }
@@ -295,12 +327,15 @@ bool StateMachine::StateChangeCall(std::string command, std::string instruction,
             else{
                 *Log << "Clock screen call passed on nin-instrucitonal command tree, instruction ignored" << std::endl;
             }
+            return valid;
         case eBTRC:
             *Log << "Recieve Bluetooth call passed on state " << current_state << std::endl;
             if(CurrentCommand == eINST){
                 valid = CheckStateChange();
                 if(valid){
                     *Log << "Bluetooth recieve instruction validated by the Instructional command tree, calling bt recieve screen" << std::endl;
+                    Current_State = recieve_navigation;
+                    current_state = 5;
                     if(!(recieve_navigation->getStatus())){
                         recieve_navigation->activateState(elaboration);
                     }
@@ -315,12 +350,15 @@ bool StateMachine::StateChangeCall(std::string command, std::string instruction,
             else{
                 *Log << "Bluetooth recieve instruction called on non-instructional command chain, instruction ignored" << std::endl;
             }
+            return valid;
         case eSTNV:
             *Log << "Start Navigation call passed on state " << current_state << std::endl;
             if(CurrentCommand == eINST){
                 valid = CheckStateChange();
                 if(valid){
                     *Log << "Start navigation command validated by instructional command tree, calling General Navigation screen" << std::endl;
+                    Current_State = general_navigation;
+                    current_state = 6;
                     if(!(general_navigation->getStatus())){
                         general_navigation->activateState(data[0],data[1],data[2],data[3]);
                     }
@@ -335,12 +373,15 @@ bool StateMachine::StateChangeCall(std::string command, std::string instruction,
             else{
                 *Log << "Start navigation instruction called on non-instructional command tree, instruction ignored" << std::endl;
             }
+            return valid;
         case eTURN:
             *Log << "Turn screen call passed on state " << current_state << std::endl;
             if(CurrentCommand == eINST){
                 valid = CheckStateChange();
                 if(valid){
                     *Log << "Turn screen instruction validated by instructional command tree, calling turn screen" << std::endl;
+                    Current_State = turn_screen;
+                    current_state = 7;
                     if(!(turn_screen->getStatus())){
                         turn_screen->activateState(data[0],data[1]);
                     }
@@ -355,12 +396,15 @@ bool StateMachine::StateChangeCall(std::string command, std::string instruction,
             else{
                 *Log << "Turn screen instruction called on non-instructional command tree, instruction ignored" << std::endl;
             }
+            return valid;
         case eREGE:
             *Log << "Switch from turn screen to general screen call passed on state " << current_state << std::endl;
             if(CurrentCommand == eINST){
                 valid = CheckStateChange();
                 if(valid){
                     *Log << "Rejoin General navigation instruction validated by instructional command tree, calling general navigation screen" << std::endl;
+                    Current_State = general_navigation;
+                    current_state = 6;
                     if(!(general_navigation->getStatus())){
                         general_navigation->activateState(data[0],data[1],data[2],data[3]);
                     }
@@ -375,6 +419,7 @@ bool StateMachine::StateChangeCall(std::string command, std::string instruction,
             else{
                 *Log << "Rejoin general navigation instruction called on non-instructional command tree, instruction ignored" << std::endl;
             }
+            return valid;
         case eFINI:
             *Log << "Go to emd screen call passed on state " << current_state << std::endl;
             if(CurrentCommand == eINST) {
@@ -383,6 +428,8 @@ bool StateMachine::StateChangeCall(std::string command, std::string instruction,
                     *Log
                             << "Finish Navigation instruction validated by instructional command tree, calling Finish Screen"
                             << std::endl;
+                    Current_State = arrival_screen;
+                    current_state = 8;
                     if (!(arrival_screen->getStatus())) {
                         arrival_screen->activateState(data[0]);
                     } else {
@@ -395,10 +442,11 @@ bool StateMachine::StateChangeCall(std::string command, std::string instruction,
             else{
                 *Log << "Finish screen instruction called on non instructional command tree, instruction ignored" << std::endl;
             }
+            return valid;
         default:
             return valid;
-    }
 
+    }
 }
 StringCommand StateMachine::StringToEnumCommand(std::string command) {
     if(command == "EXEC"){return eEXEC;}
@@ -425,6 +473,11 @@ StringInstruction StateMachine::StringToEnumInstruction(std::string instruction)
     else{
         return eVOID;
     }
+}
+void StateMachine::StateRefreshCall() {
+    Current_State->Refresh();
+    *Log << "Refresh on state " << current_state << std::endl;
+    refresh_count++;
 }
 StateMachine::~StateMachine() {
     delete shutdown;
