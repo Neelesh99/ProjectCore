@@ -22,6 +22,10 @@ public:
     void Refresh();
     void deactivateState();
 };
+class Debug_000 : public State{
+public:
+    Debug_000(Fiptr LOG);
+};
 class ShutOff_001 : public State{
 public:
     ShutOff_001(Fiptr LOG);

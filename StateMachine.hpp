@@ -13,6 +13,7 @@
 #include "Controller.hpp"
 #include "Communication.hpp"
 #include "CommuncationsBuffer.hpp"
+#include "State.hpp"
 
 
 typedef SymphonyNetwork* SYptr;
@@ -52,13 +53,17 @@ private:
     StringCommand CurrentCommand;
     StringInstruction CurrentInstruction;
     Fiptr Log;
+    std::vector<std::string> ValidityMap;
 public:
-    StateMachine(SYptr Symphony, SHptr Sensor, CTptr Control, CBptr CommsBuffer, Fiptr Logfile);
+    StateMachine(SYptr Symphony, SHptr Sensor, CTptr Control, CBptr CommsBuffer, Fiptr Logfile, int &exception);
     bool StateChangeCall(std::string command, std::string instruction, std::string elaboration, int datano, std::vector<std::string> data);
     StringCommand StringToEnumCommand(std::string command);
     StringInstruction StringToEnumInstruction(std::string instruction);
-    bool CheckStateChange(int &exception);
-    std::string pullValue(StringInstruction s, int stat, std::vector<std::string> store);
+    bool CheckStateChange();
+    std::string pullValue(StringInstruction s, int stat);
+    void LoadValidityMap(int &exception);
+    int GetValidityMapIndex(StringInstruction s);
+    int xytoi(int x, int y);
 };
 
 

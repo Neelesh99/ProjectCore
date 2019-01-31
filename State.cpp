@@ -27,6 +27,11 @@ void State::Refresh() {
     *Logfile << LogMessage << " Refreshed" << std::endl;
     system((("python PythonDisplayFiles\\" + PythonDisplayScript)).c_str());
 }
+Debug_000::Debug_000(Fiptr LOG) : State(LOG){
+    PythonDisplayScript = "DefaultDisplay.py";
+    LogMessage = "State000";
+    *Logfile << LogMessage << " is initialised" << std::endl;
+}
 ShutOff_001::ShutOff_001(Fiptr LOG):State(LOG) {
     PythonDisplayScript = "ShutOff001.py";
     LogMessage = "State001";
