@@ -25,6 +25,7 @@ typedef std::ofstream* Fiptr;
 enum StringCommand{
     eINST,
     eEXEC,
+    eVOID2
 };
 enum StringInstruction{
     eDBUG,
@@ -40,7 +41,8 @@ enum StringInstruction{
     eSTNV,
     eTURN,
     eREGE,
-    eFINI
+    eFINI,
+    eVOID
 };
 class StateMachine {
 private:
@@ -54,6 +56,17 @@ private:
     StringInstruction CurrentInstruction;
     Fiptr Log;
     std::vector<std::string> ValidityMap;
+    ShutOff_001* shutdown;
+    Boot_002* boot;
+    BtWait_003* btwait;
+    Clock_004* clockscreen;
+    ReNav_005* recieve_navigation;
+    GeNav_006* general_navigation;
+    Turn_007* turn_screen;
+    Arrived_008* arrival_screen;
+    FallDetect_009* fall_detection;
+    Blind_010* blind_spot;
+    Debug_000* debug_screen;
 public:
     StateMachine(SYptr Symphony, SHptr Sensor, CTptr Control, CBptr CommsBuffer, Fiptr Logfile, int &exception);
     bool StateChangeCall(std::string command, std::string instruction, std::string elaboration, int datano, std::vector<std::string> data);
@@ -64,6 +77,7 @@ public:
     void LoadValidityMap(int &exception);
     int GetValidityMapIndex(StringInstruction s);
     int xytoi(int x, int y);
+    ~StateMachine();
 };
 
 

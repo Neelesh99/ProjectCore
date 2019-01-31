@@ -21,6 +21,7 @@ CMakeFiles/ProjectCore.dir/StateMachine.cpp.obj: ../CommuncationsBuffer.hpp
 CMakeFiles/ProjectCore.dir/StateMachine.cpp.obj: ../Communication.hpp
 CMakeFiles/ProjectCore.dir/StateMachine.cpp.obj: ../Controller.hpp
 CMakeFiles/ProjectCore.dir/StateMachine.cpp.obj: ../SensorHandler.hpp
+CMakeFiles/ProjectCore.dir/StateMachine.cpp.obj: ../State.hpp
 CMakeFiles/ProjectCore.dir/StateMachine.cpp.obj: ../StateMachine.cpp
 CMakeFiles/ProjectCore.dir/StateMachine.cpp.obj: ../StateMachine.hpp
 CMakeFiles/ProjectCore.dir/StateMachine.cpp.obj: ../SymphonyNetwork.hpp
