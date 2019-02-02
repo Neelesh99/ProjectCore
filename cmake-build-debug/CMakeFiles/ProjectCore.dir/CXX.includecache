@@ -24,23 +24,33 @@ string
 
 C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/Controller.hpp
 
-C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/SensorHandler.hpp
-
-C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/State.cpp
-State.hpp
-C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/State.hpp
+C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/Instructor.hpp
 iostream
 -
+SymphonyNetwork.hpp
+C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/SymphonyNetwork.hpp
+SensorHandler.hpp
+C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/SensorHandler.hpp
+Controller.hpp
+C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/Controller.hpp
+Communication.hpp
+C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/Communication.hpp
+CommuncationsBuffer.hpp
+C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/CommuncationsBuffer.hpp
+State.hpp
+C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/State.hpp
+StateMachine.hpp
+C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/StateMachine.hpp
+cstring
+-
+
+C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/SensorHandler.hpp
 
 C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/State.hpp
 string
 -
 fstream
 -
-
-C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/StateMachine.cpp
-StateMachine.hpp
-C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/StateMachine.hpp
 
 C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/StateMachine.hpp
 iostream
@@ -95,4 +105,6 @@ chrono
 -
 ctime
 -
+Instructor.hpp
+C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/Instructor.hpp
 

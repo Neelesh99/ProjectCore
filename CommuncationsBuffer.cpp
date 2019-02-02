@@ -5,19 +5,34 @@
 #include "CommuncationsBuffer.hpp"
 #include "Communication.hpp"
 #include <string>
+#include <cstring>
 typedef Communication* Comptr;
 typedef char* cptr;
 
 CommunicationsBuffer::CommunicationsBuffer() {
-   cptr StartUpCommand = "cccINSTccc";
-   cptr PowerOnInstruction = "sssPWRNsss";
-   cptr ElaborationStartUp = "N/A";
-   cptr StartUpData = "N/A";
+   cptr  StartUpCommand = new char[10];
+   std::string temp = "cccINSTccc";
+   std::strcpy(StartUpCommand,temp.c_str());
+   cptr PowerOnInstruction = new char[10];
+   temp = "sssPWRNsss";
+   std::strcpy(PowerOnInstruction,temp.c_str());
+   cptr ElaborationStartUp = new char[3];
+   temp = "N/A";
+   std::strcpy(ElaborationStartUp,temp.c_str());
+   cptr StartUpData = new char[3];
+   temp = "N/A";
+   std::strcpy(StartUpData,temp.c_str());
    StartUp = new Communication(StartUpCommand,PowerOnInstruction,ElaborationStartUp,StartUpData);
    buffer.push(StartUp);
 }
 CommunicationsBuffer::~CommunicationsBuffer() {
    delete StartUp;
+}
+bool CommunicationsBuffer::isEmpty() {
+    if(buffer.size() == 0){
+        return true;
+    }
+    return false;
 }
 void CommunicationsBuffer::pollCommuncations() {
 

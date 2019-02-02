@@ -98,6 +98,12 @@
 		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/Controller.hpp">
 			<Option target="ProjectCore"/>
 		</Unit>
+		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/Instructor.cpp">
+			<Option target="ProjectCore"/>
+		</Unit>
+		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/Instructor.hpp">
+			<Option target="ProjectCore"/>
+		</Unit>
 		<Unit filename="C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/SensorHandler.cpp">
 			<Option target="ProjectCore"/>
 		</Unit>

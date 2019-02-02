@@ -8,7 +8,7 @@
 #include "State.hpp"
 #include <chrono>
 #include <ctime>
-
+#include "Instructor.hpp"
 typedef std::vector<int>* viptr;
 typedef SymphonyNetwork* Syptr;
 typedef std::string* Stptr;
@@ -180,6 +180,7 @@ int main() {
     int exceptions = 0;
     Fiptr Logging;
     Logging = StartLogFile(exceptions);
+
     if(exceptions != 0){
         ExceptionHandler E(exceptions);
         return 1;
@@ -230,9 +231,18 @@ int main() {
     s.Refresh();
      */
     ///LOGFILE Testing ///
+    ///
 
-
-
+    auto Com = new CommunicationsBuffer();
+    std::cout << Com->getLatestCommand() << std::endl;
+    std::cout << Com->getLatestInstruction() << std::endl;
+    std::cout << Com->getLatestElaboration() << std::endl;
+    std::cout << Com->getLatestData() << std::endl;
+    std::cout << Com->isEmpty() << std::endl;
+    Instructor Inst(Logging,Com,exceptions);
+    Inst.PollCommsBuffer();
+    Inst.FormatCommunication();
+    delete Com;
     return 0;
 }
 Fiptr StartLogFile(int &exception){
@@ -241,6 +251,7 @@ Fiptr StartLogFile(int &exception){
     try {
         if(s->is_open()) {
             *s << t.getTime() << std::endl;
+            *s << "Program initialised " << std::endl;
         }
         else{
             throw 6;

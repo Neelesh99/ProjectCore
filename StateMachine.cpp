@@ -107,6 +107,7 @@ void StateMachine::LoadValidityMap(int &exception) {
 bool StateMachine::CheckStateChange(){
     return (pullValue(CurrentInstruction, current_state) == "true");
 }
+//Abhiram was here :)
 bool StateMachine::StateChangeCall(std::string* command, std::string* instruction, std::string elaboration, int datano, std::vector<std::string> data){
     refresh_count = 0;
     CurrentCommand = StringToEnumCommand(*command);
@@ -455,6 +456,7 @@ StringCommand StateMachine::StringToEnumCommand(std::string command) {
         return eVOID2;
     }
 }
+//Maybe you should add more comments. Cos this looks confusing.
 StringInstruction StateMachine::StringToEnumInstruction(std::string instruction) {
     if(instruction == "DBUG"){return eDBUG;}
     if(instruction == "RSET"){return eRSET;}

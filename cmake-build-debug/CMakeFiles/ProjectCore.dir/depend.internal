@@ -11,6 +11,16 @@ CMakeFiles/ProjectCore.dir/Communication.cpp.obj
 CMakeFiles/ProjectCore.dir/Controller.cpp.obj
  C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/Controller.cpp
  C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/Controller.hpp
+CMakeFiles/ProjectCore.dir/Instructor.cpp.obj
+ C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/CommuncationsBuffer.hpp
+ C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/Communication.hpp
+ C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/Controller.hpp
+ C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/Instructor.cpp
+ C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/Instructor.hpp
+ C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/SensorHandler.hpp
+ C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/State.hpp
+ C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/StateMachine.hpp
+ C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/SymphonyNetwork.hpp
 CMakeFiles/ProjectCore.dir/SensorHandler.cpp.obj
  C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/SensorHandler.cpp
  C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/SensorHandler.hpp
@@ -32,6 +42,10 @@ CMakeFiles/ProjectCore.dir/SymphonyNetwork.cpp.obj
 CMakeFiles/ProjectCore.dir/main.cpp.obj
  C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/CommuncationsBuffer.hpp
  C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/Communication.hpp
+ C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/Controller.hpp
+ C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/Instructor.hpp
+ C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/SensorHandler.hpp
  C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/State.hpp
+ C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/StateMachine.hpp
  C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/SymphonyNetwork.hpp
  C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/main.cpp

@@ -22,6 +22,7 @@ public:
     const cptr getLatestInstruction();
     const cptr getLatestElaboration();
     const cptr getLatestData();
+    bool isEmpty();
     void releaseLatestCommunication();
     ~CommunicationsBuffer();
 };

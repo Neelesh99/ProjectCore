@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ProjectCore.dir/SensorHandler.cpp.obj"
   "CMakeFiles/ProjectCore.dir/StateMachine.cpp.obj"
   "CMakeFiles/ProjectCore.dir/State.cpp.obj"
+  "CMakeFiles/ProjectCore.dir/Instructor.cpp.obj"
   "ProjectCore.pdb"
   "ProjectCore.exe"
   "ProjectCore.exe.manifest"

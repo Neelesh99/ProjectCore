@@ -11,6 +11,16 @@ CMakeFiles/ProjectCore.dir/Communication.cpp.obj: ../Communication.hpp
 CMakeFiles/ProjectCore.dir/Controller.cpp.obj: ../Controller.cpp
 CMakeFiles/ProjectCore.dir/Controller.cpp.obj: ../Controller.hpp
 
+CMakeFiles/ProjectCore.dir/Instructor.cpp.obj: ../CommuncationsBuffer.hpp
+CMakeFiles/ProjectCore.dir/Instructor.cpp.obj: ../Communication.hpp
+CMakeFiles/ProjectCore.dir/Instructor.cpp.obj: ../Controller.hpp
+CMakeFiles/ProjectCore.dir/Instructor.cpp.obj: ../Instructor.cpp
+CMakeFiles/ProjectCore.dir/Instructor.cpp.obj: ../Instructor.hpp
+CMakeFiles/ProjectCore.dir/Instructor.cpp.obj: ../SensorHandler.hpp
+CMakeFiles/ProjectCore.dir/Instructor.cpp.obj: ../State.hpp
+CMakeFiles/ProjectCore.dir/Instructor.cpp.obj: ../StateMachine.hpp
+CMakeFiles/ProjectCore.dir/Instructor.cpp.obj: ../SymphonyNetwork.hpp
+
 CMakeFiles/ProjectCore.dir/SensorHandler.cpp.obj: ../SensorHandler.cpp
 CMakeFiles/ProjectCore.dir/SensorHandler.cpp.obj: ../SensorHandler.hpp
 
@@ -31,7 +41,11 @@ CMakeFiles/ProjectCore.dir/SymphonyNetwork.cpp.obj: ../SymphonyNetwork.hpp
 
 CMakeFiles/ProjectCore.dir/main.cpp.obj: ../CommuncationsBuffer.hpp
 CMakeFiles/ProjectCore.dir/main.cpp.obj: ../Communication.hpp
+CMakeFiles/ProjectCore.dir/main.cpp.obj: ../Controller.hpp
+CMakeFiles/ProjectCore.dir/main.cpp.obj: ../Instructor.hpp
+CMakeFiles/ProjectCore.dir/main.cpp.obj: ../SensorHandler.hpp
 CMakeFiles/ProjectCore.dir/main.cpp.obj: ../State.hpp
+CMakeFiles/ProjectCore.dir/main.cpp.obj: ../StateMachine.hpp
 CMakeFiles/ProjectCore.dir/main.cpp.obj: ../SymphonyNetwork.hpp
 CMakeFiles/ProjectCore.dir/main.cpp.obj: ../main.cpp
 

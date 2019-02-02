@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/CommuncationsBuffer.cpp" "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/CMakeFiles/ProjectCore.dir/CommuncationsBuffer.cpp.obj"
   "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/Communication.cpp" "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/CMakeFiles/ProjectCore.dir/Communication.cpp.obj"
   "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/Controller.cpp" "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/CMakeFiles/ProjectCore.dir/Controller.cpp.obj"
+  "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/Instructor.cpp" "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/CMakeFiles/ProjectCore.dir/Instructor.cpp.obj"
   "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/SensorHandler.cpp" "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/CMakeFiles/ProjectCore.dir/SensorHandler.cpp.obj"
   "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/State.cpp" "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/CMakeFiles/ProjectCore.dir/State.cpp.obj"
   "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/StateMachine.cpp" "C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/cmake-build-debug/CMakeFiles/ProjectCore.dir/StateMachine.cpp.obj"

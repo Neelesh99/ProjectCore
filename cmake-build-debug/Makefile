@@ -203,6 +203,33 @@ Controller.cpp.s:
 	$(MAKE) -f CMakeFiles\ProjectCore.dir\build.make CMakeFiles/ProjectCore.dir/Controller.cpp.s
 .PHONY : Controller.cpp.s
 
+Instructor.obj: Instructor.cpp.obj
+
+.PHONY : Instructor.obj
+
+# target to build an object file
+Instructor.cpp.obj:
+	$(MAKE) -f CMakeFiles\ProjectCore.dir\build.make CMakeFiles/ProjectCore.dir/Instructor.cpp.obj
+.PHONY : Instructor.cpp.obj
+
+Instructor.i: Instructor.cpp.i
+
+.PHONY : Instructor.i
+
+# target to preprocess a source file
+Instructor.cpp.i:
+	$(MAKE) -f CMakeFiles\ProjectCore.dir\build.make CMakeFiles/ProjectCore.dir/Instructor.cpp.i
+.PHONY : Instructor.cpp.i
+
+Instructor.s: Instructor.cpp.s
+
+.PHONY : Instructor.s
+
+# target to generate assembly for a file
+Instructor.cpp.s:
+	$(MAKE) -f CMakeFiles\ProjectCore.dir\build.make CMakeFiles/ProjectCore.dir/Instructor.cpp.s
+.PHONY : Instructor.cpp.s
+
 SensorHandler.obj: SensorHandler.cpp.obj
 
 .PHONY : SensorHandler.obj
@@ -356,6 +383,9 @@ help:
 	@echo ... Controller.obj
 	@echo ... Controller.i
 	@echo ... Controller.s
+	@echo ... Instructor.obj
+	@echo ... Instructor.i
+	@echo ... Instructor.s
 	@echo ... SensorHandler.obj
 	@echo ... SensorHandler.i
 	@echo ... SensorHandler.s

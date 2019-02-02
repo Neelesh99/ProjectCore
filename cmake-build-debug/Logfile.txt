@@ -1,4 +1,9 @@
-State111 Activated
-State111 Refreshed
-Wed Jan 30 12:47:59 2019
+Sat Feb 02 12:34:43 2019
 
+Program initialised 
+Instructor started in debugging mode, limited functionality available
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved N/A elaboration
+Invalid or N/A data stream:
+N/A
