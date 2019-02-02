@@ -39,19 +39,25 @@ void CommunicationsBuffer::pollCommuncations() {
 }
 void CommunicationsBuffer::Debugging_Manual_Poll(cptr Command, cptr Instruction, cptr Elaboration, cptr Data) {
     std::string temp = Command;
-    std::cout << Command << " " << temp << std::endl;
+    //std::cout << "Point1" << std::endl;
     cptr command = new char[temp.length()+1];
+    //std::cout << "Point2" << std::endl;
     std::strcpy(command,temp.c_str());
     temp = Instruction;
+    //std::cout << "Point2" << std::endl;
     cptr instruction = new char[temp.length()+1];
     std::strcpy(instruction,temp.c_str());
     temp = Elaboration;
+    //std::cout << "Point3" << std::endl;
     cptr elaboration = new char[temp.length()+1];
     std::strcpy(elaboration,temp.c_str());
     temp = Data;
+    //std::cout << "Point4" << std::endl;
     cptr data = new char[temp.length()+1];
     std::strcpy(data,temp.c_str());
+    //std::cout << "Help" << std::endl;
     Holder = new Communication(command,instruction,data,elaboration);
+    //std::cout << "Help2" << std::endl;
     buffer.push(Holder);
 }
 const cptr CommunicationsBuffer::getLatestCommand() {

@@ -43,3 +43,153 @@ Instructor has recieved NONE elaboration
 3 pieces of data to parse
 Instructor has recieved data
 07443570659 CALL HYPHEN 
+Sat Feb 02 13:48:20 2019
+
+Program initialised 
+Instructor started in debugging mode, limited functionality available
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instructor has recieved EXEC command
+Instructor has recieved FALL instruction
+Instructor has recieved NONE elaboration
+3 pieces of data to parse
+Instructor has recieved data
+07443570659 CALL HYPHEN 
+Sat Feb 02 13:50:00 2019
+
+Program initialised 
+Instructor started in debugging mode, limited functionality available
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instructor has recieved EXEC command
+Instructor has recieved FALL instruction
+Instructor has recieved NONE elaboration
+3 pieces of data to parse
+Instructor has recieved data
+07443570659 CALL HYPHEN 
+Sat Feb 02 13:50:50 2019
+
+Program initialised 
+Instructor started in debugging mode, limited functionality available
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instructor has recieved EXEC command
+Instructor has recieved FALL instruction
+Instructor has recieved NONE elaboration
+3 pieces of data to parse
+Instructor has recieved data
+07443570659 CALL HYPHEN 
+Sat Feb 02 13:51:08 2019
+
+Program initialised 
+Instructor started in debugging mode, limited functionality available
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instructor has recieved EXEC command
+Instructor has recieved FALL instruction
+Instructor has recieved NONE elaboration
+3 pieces of data to parse
+Instructor has recieved data
+07443570659 CALL HYPHEN 
+Instructor has recieved INST command
+Instructor has recieved REGE instruction
+Instructor has recieved  elaboration
+3 pieces of data to parse
+Instructor has recieved data
+Orman sStreet 57 
+Sat Feb 02 13:51:27 2019
+
+Program initialised 
+Instructor started in debugging mode, limited functionality available
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instructor has recieved EXEC command
+Instructor has recieved FALL instruction
+Instructor has recieved NONE elaboration
+3 pieces of data to parse
+Instructor has recieved data
+07443570659 CALL HYPHEN 
+Instructor has recieved INST command
+Instructor has recieved REGE instruction
+Instructor has recieved  elaboration
+3 pieces of data to parse
+Instructor has recieved data
+Orman sStreet 57 
+Sat Feb 02 13:52:18 2019
+
+Program initialised 
+Instructor started in debugging mode, limited functionality available
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instructor has recieved EXEC command
+Instructor has recieved FALL instruction
+Instructor has recieved NONE elaboration
+3 pieces of data to parse
+Instructor has recieved data
+07443570659 CALL HYPHEN 
+Instructor has recieved INST command
+Instructor has recieved REGE instruction
+Instructor has recieved  elaboration
+3 pieces of data to parse
+Instructor has recieved data
+ORMANDS_STREET 57 CAPITOLWAY 
+Sat Feb 02 13:52:33 2019
+
+Program initialised 
+Instructor started in debugging mode, limited functionality available
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instructor has recieved EXEC command
+Instructor has recieved FALL instruction
+Instructor has recieved NONE elaboration
+3 pieces of data to parse
+Instructor has recieved data
+07443570659 CALL HYPHEN 
+Instructor has recieved INST command
+Instructor has recieved REGE instruction
+Instructor has recieved  elaboration
+3 pieces of data to parse
+Instructor has recieved data
+ORMANDS_STREET 57 CAPITOL_WAY 
+Sat Feb 02 13:53:15 2019
+
+Program initialised 
+Instructor started in debugging mode, limited functionality available
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instructor has recieved EXEC command
+Instructor has recieved FALL instruction
+Instructor has recieved NONE elaboration
+3 pieces of data to parse
+Instructor has recieved data
+07443570659 CALL HYPHEN 
+Instructor has recieved INST command
+Instructor has recieved REGE instruction
+Instructor has recieved  elaboration
+3 pieces of data to parse
+Instructor has recieved data
+ORMANDS_STREET 57 CAPITOL_WAY 
