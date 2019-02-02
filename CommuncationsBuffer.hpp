@@ -15,9 +15,11 @@ class CommunicationsBuffer {
 private:
     std::queue<Comptr> buffer;
     Comptr StartUp;
+    Comptr Holder;
 public:
     CommunicationsBuffer();
     void pollCommuncations();
+    void Debugging_Manual_Poll(cptr Command, cptr Instruction, cptr Elaboration, cptr Data);
     const cptr getLatestCommand();
     const cptr getLatestInstruction();
     const cptr getLatestElaboration();

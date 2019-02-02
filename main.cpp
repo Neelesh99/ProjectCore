@@ -232,7 +232,7 @@ int main() {
      */
     ///LOGFILE Testing ///
     ///
-
+    ///Commsbuffer and Instructor All up testing ///
     auto Com = new CommunicationsBuffer();
     std::cout << Com->getLatestCommand() << std::endl;
     std::cout << Com->getLatestInstruction() << std::endl;
@@ -241,8 +241,31 @@ int main() {
     std::cout << Com->isEmpty() << std::endl;
     Instructor Inst(Logging,Com,exceptions);
     Inst.PollCommsBuffer();
+    Com->releaseLatestCommunication();
+    std::cout << "Is the comms buffer empty: " << Com->isEmpty() << std::endl;
+    Inst.FormatCommunication();
+    std::string coms = "cccEXECccc";
+    std::string inst = "sssFALLsss";
+    std::string elaboration = "eeeNONEeee";
+    std::string data = "ddd3d07443570659dCALLdHYPHENddd";
+    cptr cmmd = new char[coms.length()+1];
+    cptr instr = new char[inst.length()+1];
+    cptr elabs = new char[elaboration.length()+1];
+    cptr dd = new char[data.length()+1];
+    std::strcpy(cmmd,coms.c_str());
+    std::strcpy(instr,inst.c_str());
+    std::strcpy(elabs,elaboration.c_str());
+    std::strcpy(dd,data.c_str());
+    Com->Debugging_Manual_Poll(cmmd,instr,elabs,dd);
+    std::cout << Com->getLatestCommand() << std::endl;
+    std::cout << Com->getLatestInstruction() << std::endl;
+    std::cout << Com->getLatestElaboration() << std::endl;
+    std::cout << Com->getLatestData() << std::endl;
+    std::cout << Com->isEmpty() << std::endl;
+    Inst.PollCommsBuffer();
     Inst.FormatCommunication();
     delete Com;
+    ///
     return 0;
 }
 Fiptr StartLogFile(int &exception){

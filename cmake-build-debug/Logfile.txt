@@ -1,9 +1,45 @@
-Sat Feb 02 12:34:43 2019
+Sat Feb 02 13:37:24 2019
 
 Program initialised 
 Instructor started in debugging mode, limited functionality available
 Instructor has recieved INST command
 Instructor has recieved PWRN instruction
-Instructor has recieved N/A elaboration
+Instructor has recieved  elaboration
 Invalid or N/A data stream:
 N/A
+Instructor has recieved EXEC command
+Instructor has recieved FALL instruction
+Instructor has recieved NONE elaboration
+2 pieces of data to parse
+Instructor has recieved data
+07443570659 dCALL 
+Sat Feb 02 13:38:00 2019
+
+Program initialised 
+Instructor started in debugging mode, limited functionality available
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instructor has recieved EXEC command
+Instructor has recieved FALL instruction
+Instructor has recieved NONE elaboration
+2 pieces of data to parse
+Instructor has recieved data
+07443570659 CALL 
+Sat Feb 02 13:38:24 2019
+
+Program initialised 
+Instructor started in debugging mode, limited functionality available
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instructor has recieved EXEC command
+Instructor has recieved FALL instruction
+Instructor has recieved NONE elaboration
+3 pieces of data to parse
+Instructor has recieved data
+07443570659 CALL HYPHEN 
