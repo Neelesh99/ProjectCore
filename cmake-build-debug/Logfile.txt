@@ -766,3 +766,234 @@ Low Battery instructional call passed on state 2
 Low battery instruction validated by exectuive command tree, calling shut down state
 State001 Activated
 Instructor has submitted State Change Call
+Mon Feb 04 14:37:13 2019
+
+Program initialised 
+State001 is initialised
+State002 is initialised
+State003 is initialised
+State004 is initialised
+State005 is initialised
+State006 is initialised
+State007 is initialised
+State008 is initialised
+State009 is initialised
+State010 is initialised
+State000 is initialised
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved EXEC command
+Instructor has recieved BATR instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Executive Command passed on state 2
+Low Battery instructional call passed on state 2
+Low battery instruction validated by exectuive command tree, calling shut down state
+State001 Activated
+Instructor has submitted State Change Call
+Instructor has recieved EXEC command
+Instructor has recieved BATR instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Executive Command passed on state 1
+Low Battery instructional call passed on state 1
+Invalid State change called, instruction was ignored
+Instructor has submitted State Change Call
+Instructor has recieved EXEC command
+Instructor has recieved BATR instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Executive Command passed on state 1
+Low Battery instructional call passed on state 1
+Invalid State change called, instruction was ignored
+Instructor has submitted State Change Call
+Mon Feb 04 14:41:06 2019
+
+Program initialised 
+State001 is initialised
+State002 is initialised
+State003 is initialised
+State004 is initialised
+State005 is initialised
+State006 is initialised
+State007 is initialised
+State008 is initialised
+State009 is initialised
+State010 is initialised
+State000 is initialised
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Mon Feb 04 14:42:03 2019
+
+Program initialised 
+State001 is initialised
+State002 is initialised
+State003 is initialised
+State004 is initialised
+State005 is initialised
+State006 is initialised
+State007 is initialised
+State008 is initialised
+State009 is initialised
+State010 is initialised
+State000 is initialised
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved EXEC command
+Instructor has recieved BATR instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Executive Command passed on state 4
+Low Battery instructional call passed on state 4
+Low battery instruction validated by exectuive command tree, calling shut down state
+State001 Activated
+Instructor has submitted State Change Call
+Mon Feb 04 14:43:13 2019
+
+Program initialised 
+State001 is initialised
+State002 is initialised
+State003 is initialised
+State004 is initialised
+State005 is initialised
+State006 is initialised
+State007 is initialised
+State008 is initialised
+State009 is initialised
+State010 is initialised
+State000 is initialised
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Mon Feb 04 14:43:30 2019
+
+Program initialised 
+State001 is initialised
+State002 is initialised
+State003 is initialised
+State004 is initialised
+State005 is initialised
+State006 is initialised
+State007 is initialised
+State008 is initialised
+State009 is initialised
+State010 is initialised
+State000 is initialised
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved EXEC command
+Instructor has recieved BATR instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Executive Command passed on state 4
+Low Battery instructional call passed on state 4
+Low battery instruction validated by exectuive command tree, calling shut down state
+State001 Activated
+Instructor has submitted State Change Call

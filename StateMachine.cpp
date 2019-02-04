@@ -83,8 +83,6 @@ std::string StateMachine::pullValue(StringInstruction s, int stat) {
     int index_y = stat;
     int index_i = xytoi(index_x,index_y);
     //index_i++;
-    std::cout << index_i << std::endl;
-    std::cout << ValidityMap[index_i] << std::endl;
     return ValidityMap[index_i];
 }
 void StateMachine::LoadValidityMap(int &exception) {

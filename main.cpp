@@ -308,6 +308,7 @@ int main() {
         I.SendInstructionToSM();
         Com->releaseLatestCommunication();
     }
+    /*
     std::string coms = "cccEXECccc";
     std::string inst = "sssBATRsss";
     std::string elaboration = "N/A";
@@ -327,6 +328,38 @@ int main() {
         Com->releaseLatestCommunication();
     }
     ///
+     */
+    ///Using COmms list for testing ///
+    std::string Comfile;
+    std::cout << "ENter name of Commsfile: " << std::endl;
+    std::cin >> Comfile;
+    std::ifstream filo(Comfile);
+    int n = 0;
+    filo >> n;
+    for(int i = 0; i < n; i++){
+        std::string coms;
+        std::string inst;
+        std::string elaboration;
+        std::string data;
+        filo >> coms;
+        filo >> inst;
+        filo >> elaboration;
+        filo >> data;
+        cptr cmmd = new char[coms.length()+1];
+        cptr instr = new char[inst.length()+1];
+        cptr elabs = new char[elaboration.length()+1];
+        cptr dd = new char[data.length()+1];
+        std::strcpy(cmmd,coms.c_str());
+        std::strcpy(instr,inst.c_str());
+        std::strcpy(elabs,elaboration.c_str());
+        std::strcpy(dd,data.c_str());
+        Com->Debugging_Manual_Poll(cmmd,instr,elabs,dd);
+        if(I.PollCommsBuffer()){
+            I.FormatCommunication();
+            I.SendInstructionToSM();
+            Com->releaseLatestCommunication();
+        }
+    }
     delete Com;
     delete stat;
     return 0;

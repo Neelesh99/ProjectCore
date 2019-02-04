@@ -83,16 +83,16 @@ void Instructor::FormatCommunication() {
             std::cout << std::endl;
             endpoint = index;
             index = index - size;
-            std::cout << "index: " << index  << " endpoint: " << endpoint  << "size_+1 "  << size+1<< std::endl;
+            //std::cout << "index: " << index  << " endpoint: " << endpoint  << "size_+1 "  << size+1<< std::endl;
             char *temparray = new char[size + 1];
             for (int j = 0; j < size; j++) {
                 temparray[j] = data[index];
-                std::cout << temparray[j] << " ";
+                //std::cout << temparray[j] << " ";
                 index++;
             }
-            std::cout << std::endl;
+            //std::cout << std::endl;
             temparray[size] = '\0';
-            std::cout << temparray << std::endl;
+           // std::cout << temparray << std::endl;
             std::string tempstring = temparray;
             DataStore.push_back(tempstring);
             delete[] temparray;
