@@ -78,9 +78,9 @@ void Instructor::FormatCommunication() {
                 size++;
                 index++;
                 temp = data[index];
-                std::cout << temp << " ";
+                //std::cout << temp << " ";
             }
-            std::cout << std::endl;
+            //std::cout << std::endl;
             endpoint = index;
             index = index - size;
             //std::cout << "index: " << index  << " endpoint: " << endpoint  << "size_+1 "  << size+1<< std::endl;
@@ -111,6 +111,13 @@ void Instructor::FormatCommunication() {
 
 }
 void Instructor::SendInstructionToSM() {
+    if(first){
+        statemachine->StateChangeCall(&FormattedCommand, &FormattedInstruction,FormattedElaboration,NoofDataWords,FormattedData);
+        *Logfile << "Instructor has submitted State Change Call" << std::endl;
+        first = false;
+        return;
+    }
+    statemachine->DeactivateCurrent();
     statemachine->StateChangeCall(&FormattedCommand, &FormattedInstruction,FormattedElaboration,NoofDataWords,FormattedData);
     *Logfile << "Instructor has submitted State Change Call" << std::endl;
 }

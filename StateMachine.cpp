@@ -109,7 +109,7 @@ bool StateMachine::CheckStateChange(){
     return (pullValue(CurrentInstruction, current_state) == "true");
 }
 //Abhiram was here :)
-bool StateMachine::StateChangeCall(std::string* command, std::string* instruction, std::string elaboration,int NoOfData, std::vector<std::string> data){
+bool StateMachine::StateChangeCall(std::string* command, std::string* instruction, std::string elaboration, int NoOfData, std::vector<std::string> data){
     refresh_count = 0;
     CurrentCommand = StringToEnumCommand(*command);
     CurrentInstruction = StringToEnumInstruction(*instruction);
@@ -319,6 +319,7 @@ bool StateMachine::StateChangeCall(std::string* command, std::string* instructio
                     Current_State = clockscreen;
                     current_state = 4;
                     if(!(clockscreen->getStatus())){
+                        //std::cout << "Elaboration: " <<  elaboration << std::endl;
                         clockscreen->activateState(elaboration);
                     }
                     else{
@@ -480,6 +481,9 @@ StringInstruction StateMachine::StringToEnumInstruction(std::string instruction)
     else{
         return eVOID;
     }
+}
+void StateMachine::DeactivateCurrent() {
+    Current_State->deactivateState();
 }
 void StateMachine::StateRefreshCall() {
     Current_State->Refresh();

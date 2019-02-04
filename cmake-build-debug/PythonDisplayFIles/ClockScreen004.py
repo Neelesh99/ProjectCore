@@ -1,3 +1,3 @@
 import sys
-print("ClockDisplayScreen.py")
+print("ClockDisplayScreen")
 print("Arguments: ", str(sys.argv[1]))

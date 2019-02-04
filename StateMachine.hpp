@@ -81,6 +81,7 @@ public:
     int GetValidityMapIndex(StringInstruction s);
     int xytoi(int x, int y);
     void StateRefreshCall();
+    void DeactivateCurrent();
     ~StateMachine();
 };
 

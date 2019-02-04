@@ -232,7 +232,7 @@ int main() {
      */
     ///LOGFILE Testing ///
     ///
-    ///Commsbuffer and Instructor All up testing ///
+    ///Commsbuffer and Instructor All up testing /// Passed ///
     /*
     auto Com = new CommunicationsBuffer();
     std::cout << Com->getLatestCommand() << std::endl;
@@ -359,6 +359,7 @@ int main() {
             I.SendInstructionToSM();
             Com->releaseLatestCommunication();
         }
+        //std::cout << "Finished Instruction " << i << std::endl;
     }
     delete Com;
     delete stat;

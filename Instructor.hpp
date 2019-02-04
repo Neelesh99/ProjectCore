@@ -39,6 +39,7 @@ private:
     std::string FormattedElaboration;
     int NoofDataWords;
     std::vector<std::string> FormattedData;
+    bool first = true;
 public:
     Instructor(Fiptr Log, CBptr CommsBuffer, SMptr Statemachine, int &exception);
     Instructor(Fiptr Log, CBptr CommsBuffer, int &exception);
