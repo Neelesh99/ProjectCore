@@ -233,6 +233,7 @@ int main() {
     ///LOGFILE Testing ///
     ///
     ///Commsbuffer and Instructor All up testing ///
+    /*
     auto Com = new CommunicationsBuffer();
     std::cout << Com->getLatestCommand() << std::endl;
     std::cout << Com->getLatestInstruction() << std::endl;
@@ -287,7 +288,47 @@ int main() {
     Inst.PollCommsBuffer();
     Inst.FormatCommunication();
     delete Com;
+    */
+    ///New ALL Up test ///
+    CommunicationCore s;
+    Cbptr Com = s.getCommsBuffer();
+    std::string FallDetectConfig = "FallDetectCOnfig.scfg";
+    std::string FallWeight = "FallWeight.scfg";
+    std::string BlindDetectConfig = "BlindDetectConfig.scfg";
+    std::string BlindWeight = "BlindWeight.scfg";
+    MachineLearningCore m(&FallDetectConfig,&BlindDetectConfig,&FallWeight,&BlindWeight,exceptions);
+    auto stat = new StateMachine(m.getBlindPointer(),Com,Logging,exceptions);
+    if(exceptions != 0){
+        ExceptionHandler e(exceptions);
+        return 1;
+    }
+    Instructor I(Logging,Com,stat,exceptions);
+    if(I.PollCommsBuffer()){
+        I.FormatCommunication();
+        I.SendInstructionToSM();
+        Com->releaseLatestCommunication();
+    }
+    std::string coms = "cccEXECccc";
+    std::string inst = "sssBATRsss";
+    std::string elaboration = "N/A";
+    std::string data = "N/A";
+    cptr cmmd = new char[coms.length()+1];
+    cptr instr = new char[inst.length()+1];
+    cptr elabs = new char[elaboration.length()+1];
+    cptr dd = new char[data.length()+1];
+    std::strcpy(cmmd,coms.c_str());
+    std::strcpy(instr,inst.c_str());
+    std::strcpy(elabs,elaboration.c_str());
+    std::strcpy(dd,data.c_str());
+    Com->Debugging_Manual_Poll(cmmd,instr,elabs,dd);
+    if(I.PollCommsBuffer()){
+        I.FormatCommunication();
+        I.SendInstructionToSM();
+        Com->releaseLatestCommunication();
+    }
     ///
+    delete Com;
+    delete stat;
     return 0;
 }
 Fiptr StartLogFile(int &exception){

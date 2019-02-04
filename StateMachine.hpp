@@ -22,6 +22,7 @@ typedef Controller* CTptr;
 typedef Communication* CMptr;
 typedef CommunicationsBuffer* CBptr;
 typedef std::ofstream* Fiptr;
+typedef char* cptr;
 enum StringCommand{
     eINST,
     eEXEC,
@@ -70,8 +71,8 @@ private:
     Blind_010* blind_spot;
     Debug_000* debug_screen;
 public:
-    StateMachine(SYptr Symphony, SHptr Sensor, CTptr Control, CBptr CommsBuffer, Fiptr Logfile, int &exception);
-    bool StateChangeCall(std::string* command, std::string* instruction, std::string elaboration, int datano, std::vector<std::string> data);
+    StateMachine(SYptr Symphony, CBptr CommsBuffer, Fiptr Logfile, int &exception);
+    bool StateChangeCall(std::string* command, std::string* instruction, std::string elaboration,int NoOfData, std::vector<std::string> data);
     StringCommand StringToEnumCommand(std::string command);
     StringInstruction StringToEnumInstruction(std::string instruction);
     bool CheckStateChange();

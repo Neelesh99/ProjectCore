@@ -5,11 +5,11 @@
 #include "StateMachine.hpp"
 
 
-StateMachine::StateMachine(SYptr Symphony, SHptr Sensor, CTptr Control,
+StateMachine::StateMachine(SYptr Symphony,
                            CBptr CommsBuffer, Fiptr Logfile, int &exception) {
     Symphonynetwork = Symphony;
-    Sensorhandler = Sensor;
-    Controls = Control;
+    //Sensorhandler = Sensor;
+    //Controls = Control;
     Commsbuffer = CommsBuffer;
     current_state = 1;
     Log = Logfile;
@@ -76,12 +76,15 @@ int StateMachine::GetValidityMapIndex(StringInstruction s) {
 int StateMachine::xytoi(int x, int y) {
     x++;
     y++;
-    return (y*14 + x);
+    return (y*15 + x);
 }
 std::string StateMachine::pullValue(StringInstruction s, int stat) {
     int index_x = GetValidityMapIndex(s);
     int index_y = stat;
     int index_i = xytoi(index_x,index_y);
+    //index_i++;
+    std::cout << index_i << std::endl;
+    std::cout << ValidityMap[index_i] << std::endl;
     return ValidityMap[index_i];
 }
 void StateMachine::LoadValidityMap(int &exception) {
@@ -108,7 +111,7 @@ bool StateMachine::CheckStateChange(){
     return (pullValue(CurrentInstruction, current_state) == "true");
 }
 //Abhiram was here :)
-bool StateMachine::StateChangeCall(std::string* command, std::string* instruction, std::string elaboration, int datano, std::vector<std::string> data){
+bool StateMachine::StateChangeCall(std::string* command, std::string* instruction, std::string elaboration,int NoOfData, std::vector<std::string> data){
     refresh_count = 0;
     CurrentCommand = StringToEnumCommand(*command);
     CurrentInstruction = StringToEnumInstruction(*instruction);
@@ -116,10 +119,13 @@ bool StateMachine::StateChangeCall(std::string* command, std::string* instructio
     switch(CurrentCommand){
         case eEXEC:
             *Log << "Executive Command passed on state " << current_state << std::endl;
+            break;
         case eINST:
             *Log << "Instruction Command passed on state " << current_state << std::endl;
+            break;
         default:
-            *Log << "Invalid Command tree passed on state " << current_state << std::endl;
+            *Log << "Invalid Command passed on state " << current_state << std::endl;
+            break;
     }
     switch(CurrentInstruction) {
         case eDBUG:
@@ -451,7 +457,8 @@ bool StateMachine::StateChangeCall(std::string* command, std::string* instructio
 }
 StringCommand StateMachine::StringToEnumCommand(std::string command) {
     if(command == "EXEC"){return eEXEC;}
-    if(command == "INST"){return eINST;}
+    if(command == "INST"){
+        return eINST;}
     else{
         return eVOID2;
     }

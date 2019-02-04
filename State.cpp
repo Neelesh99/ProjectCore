@@ -13,7 +13,7 @@ State::State(Fiptr Log){
 void State::activateState(){
     active = true;
     *Logfile << LogMessage << " Activated" << std::endl;
-    std::cout << "State activation call" << std::endl;
+    //std::cout << "State activation call" << std::endl;
     system((("python PythonDisplayFiles\\" + PythonDisplayScript)).c_str());
 }
 bool State::getStatus() {
