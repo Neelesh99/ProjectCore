@@ -331,7 +331,7 @@ int main() {
      */
     ///Using COmms list for testing ///
     std::string Comfile;
-    std::cout << "ENter name of Commsfile: " << std::endl;
+    std::cout << "Enter name of Commsfile: " << std::endl;
     std::cin >> Comfile;
     std::ifstream filo(Comfile);
     int n = 0;
@@ -357,10 +357,16 @@ int main() {
         if(I.PollCommsBuffer()){
             I.FormatCommunication();
             I.SendInstructionToSM();
+            I.RefreshInstructionSM();
             Com->releaseLatestCommunication();
+        }
+        else{
+            I.RefreshInstructionSM();
         }
         //std::cout << "Finished Instruction " << i << std::endl;
     }
+    I.RefreshInstructionSM();
+    I.RefreshInstructionSM();
     delete Com;
     delete stat;
     return 0;

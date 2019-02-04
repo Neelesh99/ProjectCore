@@ -19,8 +19,9 @@ public:
     State(Fiptr Log);
     void activateState();
     bool getStatus();
-    void Refresh();
+    virtual void Refresh();
     void deactivateState();
+
 };
 class Debug_000 : public State{
 public:
@@ -81,6 +82,7 @@ public:
     Arrived_008(Fiptr LOG);
     void activateState(std::string Streetname);
     void Refresh();
+
 };
 class FallDetect_009: public State{
 public:

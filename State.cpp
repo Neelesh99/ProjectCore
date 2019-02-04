@@ -24,6 +24,7 @@ void State::deactivateState() {
     *Logfile << LogMessage << " Deactivated" << std::endl;
 }
 void State::Refresh() {
+    std::cout << "Incorrect Refresh Called" << std::endl;
     *Logfile << LogMessage << " Refreshed" << std::endl;
     system((("python PythonDisplayFiles\\" + PythonDisplayScript)).c_str());
 }
@@ -120,6 +121,7 @@ void Arrived_008::activateState(std::string Streetname) {
     system((("python PythonDisplayFiles\\" + PythonDisplayScript + " " +  streetname)).c_str());
 }
 void Arrived_008::Refresh() {
+    //std::cout << "Streetname Debug: " <<  streetname << std::endl;
     system((("python PythonDisplayFiles\\" + PythonDisplayScript + " " +  streetname)).c_str());
 }
 FallDetect_009::FallDetect_009(Fiptr LOG):State(LOG) {

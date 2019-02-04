@@ -486,6 +486,8 @@ void StateMachine::DeactivateCurrent() {
     Current_State->deactivateState();
 }
 void StateMachine::StateRefreshCall() {
+    //std::cout << "StateMachineRefreshCall" << std::endl;
+    //Current_State->getType();
     Current_State->Refresh();
     *Log << "Refresh on state " << current_state << std::endl;
     refresh_count++;

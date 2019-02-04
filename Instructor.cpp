@@ -122,6 +122,7 @@ void Instructor::SendInstructionToSM() {
     *Logfile << "Instructor has submitted State Change Call" << std::endl;
 }
 void Instructor::RefreshInstructionSM() {
+    //std::cout << "RefreshCall" << std::endl;
     statemachine->StateRefreshCall();
     *Logfile << "Instructor has submitted a State refresh Call" << std::endl;
 }

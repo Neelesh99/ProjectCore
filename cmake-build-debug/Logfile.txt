@@ -3500,3 +3500,2660 @@ Go to emd screen call passed on state 7
 Finish Navigation instruction validated by instructional command tree, calling Finish Screen
 State008 Activated
 Instructor has submitted State Change Call
+Mon Feb 04 17:44:23 2019
+
+Program initialised 
+State001 is initialised
+State002 is initialised
+State003 is initialised
+State004 is initialised
+State005 is initialised
+State006 is initialised
+State007 is initialised
+State008 is initialised
+State009 is initialised
+State010 is initialised
+State000 is initialised
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State002 Deactivated
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+State003 Deactivated
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved EXEC command
+Instructor has recieved BATR instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Executive Command passed on state 4
+Low Battery instructional call passed on state 4
+Low battery instruction validated by exectuive command tree, calling shut down state
+State001 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State001 Deactivated
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State002 Deactivated
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+State003 Deactivated
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTRC instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Instruction Command passed on state 4
+Recieve Bluetooth call passed on state 4
+Bluetooth recieve instruction validated by the Instructional command tree, calling bt recieve screen
+State005 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved STNV instruction
+Instructor has recieved  elaboration
+4 pieces of data to parse
+Instructor has recieved data
+EXHIBITIONROAD 45 LEFT GRANDEDRIVE 
+State005 Deactivated
+Instruction Command passed on state 5
+Start Navigation call passed on state 5
+Start navigation command validated by instructional command tree, calling General Navigation screen
+State006 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved TURN instruction
+Instructor has recieved  elaboration
+2 pieces of data to parse
+Instructor has recieved data
+LEFT GREATORMANDSSTREET 
+State006 Deactivated
+Instruction Command passed on state 6
+Turn screen call passed on state 6
+Turn screen instruction validated by instructional command tree, calling turn screen
+State007 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved FINI instruction
+Instructor has recieved  elaboration
+1 pieces of data to parse
+Instructor has recieved data
+GRANGEDRIVE 
+State007 Deactivated
+Instruction Command passed on state 7
+Go to emd screen call passed on state 7
+Finish Navigation instruction validated by instructional command tree, calling Finish Screen
+State008 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State008 Deactivated
+Instruction Command passed on state 8
+Go to Clock call passed on state 8
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTRC instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Instruction Command passed on state 4
+Recieve Bluetooth call passed on state 4
+Bluetooth recieve instruction validated by the Instructional command tree, calling bt recieve screen
+State005 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved STNV instruction
+Instructor has recieved  elaboration
+4 pieces of data to parse
+Instructor has recieved data
+DOGLANE 64 RIGHT CATSTREET 
+State005 Deactivated
+Instruction Command passed on state 5
+Start Navigation call passed on state 5
+Start navigation command validated by instructional command tree, calling General Navigation screen
+State006 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved TURN instruction
+Instructor has recieved  elaboration
+2 pieces of data to parse
+Instructor has recieved data
+RIGHT CATSTREET 
+State006 Deactivated
+Instruction Command passed on state 6
+Turn screen call passed on state 6
+Turn screen instruction validated by instructional command tree, calling turn screen
+State007 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved FINI instruction
+Instructor has recieved  elaboration
+1 pieces of data to parse
+Instructor has recieved data
+CATSTREET 
+State007 Deactivated
+Instruction Command passed on state 7
+Go to emd screen call passed on state 7
+Finish Navigation instruction validated by instructional command tree, calling Finish Screen
+State008 Activated
+Instructor has submitted State Change Call
+Mon Feb 04 17:45:16 2019
+
+Program initialised 
+State001 is initialised
+State002 is initialised
+State003 is initialised
+State004 is initialised
+State005 is initialised
+State006 is initialised
+State007 is initialised
+State008 is initialised
+State009 is initialised
+State010 is initialised
+State000 is initialised
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State002 Deactivated
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+State003 Deactivated
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved EXEC command
+Instructor has recieved BATR instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Executive Command passed on state 4
+Low Battery instructional call passed on state 4
+Low battery instruction validated by exectuive command tree, calling shut down state
+State001 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State001 Deactivated
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State002 Deactivated
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+State003 Deactivated
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTRC instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Instruction Command passed on state 4
+Recieve Bluetooth call passed on state 4
+Bluetooth recieve instruction validated by the Instructional command tree, calling bt recieve screen
+State005 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved STNV instruction
+Instructor has recieved  elaboration
+4 pieces of data to parse
+Instructor has recieved data
+EXHIBITIONROAD 45 LEFT GRANDEDRIVE 
+State005 Deactivated
+Instruction Command passed on state 5
+Start Navigation call passed on state 5
+Start navigation command validated by instructional command tree, calling General Navigation screen
+State006 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved TURN instruction
+Instructor has recieved  elaboration
+2 pieces of data to parse
+Instructor has recieved data
+LEFT GREATORMANDSSTREET 
+State006 Deactivated
+Instruction Command passed on state 6
+Turn screen call passed on state 6
+Turn screen instruction validated by instructional command tree, calling turn screen
+State007 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved FINI instruction
+Instructor has recieved  elaboration
+1 pieces of data to parse
+Instructor has recieved data
+GRANGEDRIVE 
+State007 Deactivated
+Instruction Command passed on state 7
+Go to emd screen call passed on state 7
+Finish Navigation instruction validated by instructional command tree, calling Finish Screen
+State008 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State008 Deactivated
+Instruction Command passed on state 8
+Go to Clock call passed on state 8
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTRC instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Instruction Command passed on state 4
+Recieve Bluetooth call passed on state 4
+Bluetooth recieve instruction validated by the Instructional command tree, calling bt recieve screen
+State005 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved STNV instruction
+Instructor has recieved  elaboration
+4 pieces of data to parse
+Instructor has recieved data
+DOGLANE 64 RIGHT CATSTREET 
+State005 Deactivated
+Instruction Command passed on state 5
+Start Navigation call passed on state 5
+Start navigation command validated by instructional command tree, calling General Navigation screen
+State006 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved TURN instruction
+Instructor has recieved  elaboration
+2 pieces of data to parse
+Instructor has recieved data
+RIGHT CATSTREET 
+State006 Deactivated
+Instruction Command passed on state 6
+Turn screen call passed on state 6
+Turn screen instruction validated by instructional command tree, calling turn screen
+State007 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved FINI instruction
+Instructor has recieved  elaboration
+1 pieces of data to parse
+Instructor has recieved data
+CATSTREET 
+State007 Deactivated
+Instruction Command passed on state 7
+Go to emd screen call passed on state 7
+Finish Navigation instruction validated by instructional command tree, calling Finish Screen
+State008 Activated
+Instructor has submitted State Change Call
+State008 Refreshed
+Refresh on state 8
+Instructor has submitted a State refresh Call
+Mon Feb 04 17:47:01 2019
+
+Program initialised 
+State001 is initialised
+State002 is initialised
+State003 is initialised
+State004 is initialised
+State005 is initialised
+State006 is initialised
+State007 is initialised
+State008 is initialised
+State009 is initialised
+State010 is initialised
+State000 is initialised
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State002 Deactivated
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+State003 Deactivated
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved EXEC command
+Instructor has recieved BATR instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Executive Command passed on state 4
+Low Battery instructional call passed on state 4
+Low battery instruction validated by exectuive command tree, calling shut down state
+State001 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State001 Deactivated
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State002 Deactivated
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+State003 Deactivated
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTRC instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Instruction Command passed on state 4
+Recieve Bluetooth call passed on state 4
+Bluetooth recieve instruction validated by the Instructional command tree, calling bt recieve screen
+State005 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved STNV instruction
+Instructor has recieved  elaboration
+4 pieces of data to parse
+Instructor has recieved data
+EXHIBITIONROAD 45 LEFT GRANDEDRIVE 
+State005 Deactivated
+Instruction Command passed on state 5
+Start Navigation call passed on state 5
+Start navigation command validated by instructional command tree, calling General Navigation screen
+State006 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved TURN instruction
+Instructor has recieved  elaboration
+2 pieces of data to parse
+Instructor has recieved data
+LEFT GREATORMANDSSTREET 
+State006 Deactivated
+Instruction Command passed on state 6
+Turn screen call passed on state 6
+Turn screen instruction validated by instructional command tree, calling turn screen
+State007 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved FINI instruction
+Instructor has recieved  elaboration
+1 pieces of data to parse
+Instructor has recieved data
+GRANGEDRIVE 
+State007 Deactivated
+Instruction Command passed on state 7
+Go to emd screen call passed on state 7
+Finish Navigation instruction validated by instructional command tree, calling Finish Screen
+State008 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State008 Deactivated
+Instruction Command passed on state 8
+Go to Clock call passed on state 8
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTRC instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Instruction Command passed on state 4
+Recieve Bluetooth call passed on state 4
+Bluetooth recieve instruction validated by the Instructional command tree, calling bt recieve screen
+State005 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved STNV instruction
+Instructor has recieved  elaboration
+4 pieces of data to parse
+Instructor has recieved data
+DOGLANE 64 RIGHT CATSTREET 
+State005 Deactivated
+Instruction Command passed on state 5
+Start Navigation call passed on state 5
+Start navigation command validated by instructional command tree, calling General Navigation screen
+State006 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved TURN instruction
+Instructor has recieved  elaboration
+2 pieces of data to parse
+Instructor has recieved data
+RIGHT CATSTREET 
+State006 Deactivated
+Instruction Command passed on state 6
+Turn screen call passed on state 6
+Turn screen instruction validated by instructional command tree, calling turn screen
+State007 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved FINI instruction
+Instructor has recieved  elaboration
+1 pieces of data to parse
+Instructor has recieved data
+CATSTREET 
+State007 Deactivated
+Instruction Command passed on state 7
+Go to emd screen call passed on state 7
+Finish Navigation instruction validated by instructional command tree, calling Finish Screen
+State008 Activated
+Instructor has submitted State Change Call
+State008 Refreshed
+Refresh on state 8
+Instructor has submitted a State refresh Call
+Mon Feb 04 17:47:35 2019
+
+Program initialised 
+State001 is initialised
+State002 is initialised
+State003 is initialised
+State004 is initialised
+State005 is initialised
+State006 is initialised
+State007 is initialised
+State008 is initialised
+State009 is initialised
+State010 is initialised
+State000 is initialised
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+State002 Refreshed
+Refresh on state 2
+Instructor has submitted a State refresh Call
+Mon Feb 04 17:47:51 2019
+
+Program initialised 
+State001 is initialised
+State002 is initialised
+State003 is initialised
+State004 is initialised
+State005 is initialised
+State006 is initialised
+State007 is initialised
+State008 is initialised
+State009 is initialised
+State010 is initialised
+State000 is initialised
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State002 Deactivated
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+State003 Deactivated
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved EXEC command
+Instructor has recieved BATR instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Executive Command passed on state 4
+Low Battery instructional call passed on state 4
+Low battery instruction validated by exectuive command tree, calling shut down state
+State001 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State001 Deactivated
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State002 Deactivated
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+State003 Deactivated
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTRC instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Instruction Command passed on state 4
+Recieve Bluetooth call passed on state 4
+Bluetooth recieve instruction validated by the Instructional command tree, calling bt recieve screen
+State005 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved STNV instruction
+Instructor has recieved  elaboration
+4 pieces of data to parse
+Instructor has recieved data
+EXHIBITIONROAD 45 LEFT GRANDEDRIVE 
+State005 Deactivated
+Instruction Command passed on state 5
+Start Navigation call passed on state 5
+Start navigation command validated by instructional command tree, calling General Navigation screen
+State006 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved TURN instruction
+Instructor has recieved  elaboration
+2 pieces of data to parse
+Instructor has recieved data
+LEFT GREATORMANDSSTREET 
+State006 Deactivated
+Instruction Command passed on state 6
+Turn screen call passed on state 6
+Turn screen instruction validated by instructional command tree, calling turn screen
+State007 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved FINI instruction
+Instructor has recieved  elaboration
+1 pieces of data to parse
+Instructor has recieved data
+GRANGEDRIVE 
+State007 Deactivated
+Instruction Command passed on state 7
+Go to emd screen call passed on state 7
+Finish Navigation instruction validated by instructional command tree, calling Finish Screen
+State008 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State008 Deactivated
+Instruction Command passed on state 8
+Go to Clock call passed on state 8
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTRC instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Instruction Command passed on state 4
+Recieve Bluetooth call passed on state 4
+Bluetooth recieve instruction validated by the Instructional command tree, calling bt recieve screen
+State005 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved STNV instruction
+Instructor has recieved  elaboration
+4 pieces of data to parse
+Instructor has recieved data
+DOGLANE 64 RIGHT CATSTREET 
+State005 Deactivated
+Instruction Command passed on state 5
+Start Navigation call passed on state 5
+Start navigation command validated by instructional command tree, calling General Navigation screen
+State006 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved TURN instruction
+Instructor has recieved  elaboration
+2 pieces of data to parse
+Instructor has recieved data
+RIGHT CATSTREET 
+State006 Deactivated
+Instruction Command passed on state 6
+Turn screen call passed on state 6
+Turn screen instruction validated by instructional command tree, calling turn screen
+State007 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved FINI instruction
+Instructor has recieved  elaboration
+1 pieces of data to parse
+Instructor has recieved data
+CATSTREET 
+State007 Deactivated
+Instruction Command passed on state 7
+Go to emd screen call passed on state 7
+Finish Navigation instruction validated by instructional command tree, calling Finish Screen
+State008 Activated
+Instructor has submitted State Change Call
+State008 Refreshed
+Refresh on state 8
+Instructor has submitted a State refresh Call
+Mon Feb 04 17:49:32 2019
+
+Program initialised 
+State001 is initialised
+State002 is initialised
+State003 is initialised
+State004 is initialised
+State005 is initialised
+State006 is initialised
+State007 is initialised
+State008 is initialised
+State009 is initialised
+State010 is initialised
+State000 is initialised
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State002 Deactivated
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+State003 Deactivated
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved EXEC command
+Instructor has recieved BATR instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Executive Command passed on state 4
+Low Battery instructional call passed on state 4
+Low battery instruction validated by exectuive command tree, calling shut down state
+State001 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State001 Deactivated
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State002 Deactivated
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+State003 Deactivated
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTRC instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Instruction Command passed on state 4
+Recieve Bluetooth call passed on state 4
+Bluetooth recieve instruction validated by the Instructional command tree, calling bt recieve screen
+State005 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved STNV instruction
+Instructor has recieved  elaboration
+4 pieces of data to parse
+Instructor has recieved data
+EXHIBITIONROAD 45 LEFT GRANDEDRIVE 
+State005 Deactivated
+Instruction Command passed on state 5
+Start Navigation call passed on state 5
+Start navigation command validated by instructional command tree, calling General Navigation screen
+State006 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved TURN instruction
+Instructor has recieved  elaboration
+2 pieces of data to parse
+Instructor has recieved data
+LEFT GREATORMANDSSTREET 
+State006 Deactivated
+Instruction Command passed on state 6
+Turn screen call passed on state 6
+Turn screen instruction validated by instructional command tree, calling turn screen
+State007 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved FINI instruction
+Instructor has recieved  elaboration
+1 pieces of data to parse
+Instructor has recieved data
+GRANGEDRIVE 
+State007 Deactivated
+Instruction Command passed on state 7
+Go to emd screen call passed on state 7
+Finish Navigation instruction validated by instructional command tree, calling Finish Screen
+State008 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State008 Deactivated
+Instruction Command passed on state 8
+Go to Clock call passed on state 8
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTRC instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Instruction Command passed on state 4
+Recieve Bluetooth call passed on state 4
+Bluetooth recieve instruction validated by the Instructional command tree, calling bt recieve screen
+State005 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved STNV instruction
+Instructor has recieved  elaboration
+4 pieces of data to parse
+Instructor has recieved data
+DOGLANE 64 RIGHT CATSTREET 
+State005 Deactivated
+Instruction Command passed on state 5
+Start Navigation call passed on state 5
+Start navigation command validated by instructional command tree, calling General Navigation screen
+State006 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved TURN instruction
+Instructor has recieved  elaboration
+2 pieces of data to parse
+Instructor has recieved data
+RIGHT CATSTREET 
+State006 Deactivated
+Instruction Command passed on state 6
+Turn screen call passed on state 6
+Turn screen instruction validated by instructional command tree, calling turn screen
+State007 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved FINI instruction
+Instructor has recieved  elaboration
+1 pieces of data to parse
+Instructor has recieved data
+CATSTREET 
+State007 Deactivated
+Instruction Command passed on state 7
+Go to emd screen call passed on state 7
+Finish Navigation instruction validated by instructional command tree, calling Finish Screen
+State008 Activated
+Instructor has submitted State Change Call
+State008 Refreshed
+Refresh on state 8
+Instructor has submitted a State refresh Call
+Mon Feb 04 17:50:15 2019
+
+Program initialised 
+State001 is initialised
+State002 is initialised
+State003 is initialised
+State004 is initialised
+State005 is initialised
+State006 is initialised
+State007 is initialised
+State008 is initialised
+State009 is initialised
+State010 is initialised
+State000 is initialised
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State002 Deactivated
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+State003 Deactivated
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved EXEC command
+Instructor has recieved BATR instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Executive Command passed on state 4
+Low Battery instructional call passed on state 4
+Low battery instruction validated by exectuive command tree, calling shut down state
+State001 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State001 Deactivated
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State002 Deactivated
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+State003 Deactivated
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTRC instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Instruction Command passed on state 4
+Recieve Bluetooth call passed on state 4
+Bluetooth recieve instruction validated by the Instructional command tree, calling bt recieve screen
+State005 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved STNV instruction
+Instructor has recieved  elaboration
+4 pieces of data to parse
+Instructor has recieved data
+EXHIBITIONROAD 45 LEFT GRANDEDRIVE 
+State005 Deactivated
+Instruction Command passed on state 5
+Start Navigation call passed on state 5
+Start navigation command validated by instructional command tree, calling General Navigation screen
+State006 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved TURN instruction
+Instructor has recieved  elaboration
+2 pieces of data to parse
+Instructor has recieved data
+LEFT GREATORMANDSSTREET 
+State006 Deactivated
+Instruction Command passed on state 6
+Turn screen call passed on state 6
+Turn screen instruction validated by instructional command tree, calling turn screen
+State007 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved FINI instruction
+Instructor has recieved  elaboration
+1 pieces of data to parse
+Instructor has recieved data
+GRANGEDRIVE 
+State007 Deactivated
+Instruction Command passed on state 7
+Go to emd screen call passed on state 7
+Finish Navigation instruction validated by instructional command tree, calling Finish Screen
+State008 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State008 Deactivated
+Instruction Command passed on state 8
+Go to Clock call passed on state 8
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTRC instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Instruction Command passed on state 4
+Recieve Bluetooth call passed on state 4
+Bluetooth recieve instruction validated by the Instructional command tree, calling bt recieve screen
+State005 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved STNV instruction
+Instructor has recieved  elaboration
+4 pieces of data to parse
+Instructor has recieved data
+DOGLANE 64 RIGHT CATSTREET 
+State005 Deactivated
+Instruction Command passed on state 5
+Start Navigation call passed on state 5
+Start navigation command validated by instructional command tree, calling General Navigation screen
+State006 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved TURN instruction
+Instructor has recieved  elaboration
+2 pieces of data to parse
+Instructor has recieved data
+RIGHT CATSTREET 
+State006 Deactivated
+Instruction Command passed on state 6
+Turn screen call passed on state 6
+Turn screen instruction validated by instructional command tree, calling turn screen
+State007 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved FINI instruction
+Instructor has recieved  elaboration
+1 pieces of data to parse
+Instructor has recieved data
+CATSTREET 
+State007 Deactivated
+Instruction Command passed on state 7
+Go to emd screen call passed on state 7
+Finish Navigation instruction validated by instructional command tree, calling Finish Screen
+State008 Activated
+Instructor has submitted State Change Call
+State008 Refreshed
+Refresh on state 8
+Instructor has submitted a State refresh Call
+Mon Feb 04 17:53:01 2019
+
+Program initialised 
+State001 is initialised
+State002 is initialised
+State003 is initialised
+State004 is initialised
+State005 is initialised
+State006 is initialised
+State007 is initialised
+State008 is initialised
+State009 is initialised
+State010 is initialised
+State000 is initialised
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State002 Deactivated
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+State003 Deactivated
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved EXEC command
+Instructor has recieved BATR instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Executive Command passed on state 4
+Low Battery instructional call passed on state 4
+Low battery instruction validated by exectuive command tree, calling shut down state
+State001 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State001 Deactivated
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State002 Deactivated
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+State003 Deactivated
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTRC instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Instruction Command passed on state 4
+Recieve Bluetooth call passed on state 4
+Bluetooth recieve instruction validated by the Instructional command tree, calling bt recieve screen
+State005 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved STNV instruction
+Instructor has recieved  elaboration
+4 pieces of data to parse
+Instructor has recieved data
+EXHIBITIONROAD 45 LEFT GRANDEDRIVE 
+State005 Deactivated
+Instruction Command passed on state 5
+Start Navigation call passed on state 5
+Start navigation command validated by instructional command tree, calling General Navigation screen
+State006 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved TURN instruction
+Instructor has recieved  elaboration
+2 pieces of data to parse
+Instructor has recieved data
+LEFT GREATORMANDSSTREET 
+State006 Deactivated
+Instruction Command passed on state 6
+Turn screen call passed on state 6
+Turn screen instruction validated by instructional command tree, calling turn screen
+State007 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved FINI instruction
+Instructor has recieved  elaboration
+1 pieces of data to parse
+Instructor has recieved data
+GRANGEDRIVE 
+State007 Deactivated
+Instruction Command passed on state 7
+Go to emd screen call passed on state 7
+Finish Navigation instruction validated by instructional command tree, calling Finish Screen
+State008 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State008 Deactivated
+Instruction Command passed on state 8
+Go to Clock call passed on state 8
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTRC instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Instruction Command passed on state 4
+Recieve Bluetooth call passed on state 4
+Bluetooth recieve instruction validated by the Instructional command tree, calling bt recieve screen
+State005 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved STNV instruction
+Instructor has recieved  elaboration
+4 pieces of data to parse
+Instructor has recieved data
+DOGLANE 64 RIGHT CATSTREET 
+State005 Deactivated
+Instruction Command passed on state 5
+Start Navigation call passed on state 5
+Start navigation command validated by instructional command tree, calling General Navigation screen
+State006 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved TURN instruction
+Instructor has recieved  elaboration
+2 pieces of data to parse
+Instructor has recieved data
+RIGHT CATSTREET 
+State006 Deactivated
+Instruction Command passed on state 6
+Turn screen call passed on state 6
+Turn screen instruction validated by instructional command tree, calling turn screen
+State007 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved FINI instruction
+Instructor has recieved  elaboration
+1 pieces of data to parse
+Instructor has recieved data
+CATSTREET 
+State007 Deactivated
+Instruction Command passed on state 7
+Go to emd screen call passed on state 7
+Finish Navigation instruction validated by instructional command tree, calling Finish Screen
+State008 Activated
+Instructor has submitted State Change Call
+State008 Refreshed
+Refresh on state 8
+Instructor has submitted a State refresh Call
+Mon Feb 04 18:01:20 2019
+
+Program initialised 
+State001 is initialised
+State002 is initialised
+State003 is initialised
+State004 is initialised
+State005 is initialised
+State006 is initialised
+State007 is initialised
+State008 is initialised
+State009 is initialised
+State010 is initialised
+State000 is initialised
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State002 Deactivated
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+State003 Deactivated
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved EXEC command
+Instructor has recieved BATR instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Executive Command passed on state 4
+Low Battery instructional call passed on state 4
+Low battery instruction validated by exectuive command tree, calling shut down state
+State001 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State001 Deactivated
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State002 Deactivated
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+State003 Deactivated
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTRC instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Instruction Command passed on state 4
+Recieve Bluetooth call passed on state 4
+Bluetooth recieve instruction validated by the Instructional command tree, calling bt recieve screen
+State005 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved STNV instruction
+Instructor has recieved  elaboration
+4 pieces of data to parse
+Instructor has recieved data
+EXHIBITIONROAD 45 LEFT GRANDEDRIVE 
+State005 Deactivated
+Instruction Command passed on state 5
+Start Navigation call passed on state 5
+Start navigation command validated by instructional command tree, calling General Navigation screen
+State006 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved TURN instruction
+Instructor has recieved  elaboration
+2 pieces of data to parse
+Instructor has recieved data
+LEFT GREATORMANDSSTREET 
+State006 Deactivated
+Instruction Command passed on state 6
+Turn screen call passed on state 6
+Turn screen instruction validated by instructional command tree, calling turn screen
+State007 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved FINI instruction
+Instructor has recieved  elaboration
+1 pieces of data to parse
+Instructor has recieved data
+GRANGEDRIVE 
+State007 Deactivated
+Instruction Command passed on state 7
+Go to emd screen call passed on state 7
+Finish Navigation instruction validated by instructional command tree, calling Finish Screen
+State008 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State008 Deactivated
+Instruction Command passed on state 8
+Go to Clock call passed on state 8
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTRC instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Instruction Command passed on state 4
+Recieve Bluetooth call passed on state 4
+Bluetooth recieve instruction validated by the Instructional command tree, calling bt recieve screen
+State005 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved STNV instruction
+Instructor has recieved  elaboration
+4 pieces of data to parse
+Instructor has recieved data
+DOGLANE 64 RIGHT CATSTREET 
+State005 Deactivated
+Instruction Command passed on state 5
+Start Navigation call passed on state 5
+Start navigation command validated by instructional command tree, calling General Navigation screen
+State006 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved TURN instruction
+Instructor has recieved  elaboration
+2 pieces of data to parse
+Instructor has recieved data
+RIGHT CATSTREET 
+State006 Deactivated
+Instruction Command passed on state 6
+Turn screen call passed on state 6
+Turn screen instruction validated by instructional command tree, calling turn screen
+State007 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved FINI instruction
+Instructor has recieved  elaboration
+1 pieces of data to parse
+Instructor has recieved data
+CATSTREET 
+State007 Deactivated
+Instruction Command passed on state 7
+Go to emd screen call passed on state 7
+Finish Navigation instruction validated by instructional command tree, calling Finish Screen
+State008 Activated
+Instructor has submitted State Change Call
+State008 Refreshed
+Refresh on state 8
+Instructor has submitted a State refresh Call
+Mon Feb 04 18:05:49 2019
+
+Program initialised 
+State001 is initialised
+State002 is initialised
+State003 is initialised
+State004 is initialised
+State005 is initialised
+State006 is initialised
+State007 is initialised
+State008 is initialised
+State009 is initialised
+State010 is initialised
+State000 is initialised
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State002 Deactivated
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+State003 Deactivated
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved EXEC command
+Instructor has recieved BATR instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Executive Command passed on state 4
+Low Battery instructional call passed on state 4
+Low battery instruction validated by exectuive command tree, calling shut down state
+State001 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State001 Deactivated
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State002 Deactivated
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+State003 Deactivated
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTRC instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Instruction Command passed on state 4
+Recieve Bluetooth call passed on state 4
+Bluetooth recieve instruction validated by the Instructional command tree, calling bt recieve screen
+State005 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved STNV instruction
+Instructor has recieved  elaboration
+4 pieces of data to parse
+Instructor has recieved data
+EXHIBITIONROAD 45 LEFT GRANDEDRIVE 
+State005 Deactivated
+Instruction Command passed on state 5
+Start Navigation call passed on state 5
+Start navigation command validated by instructional command tree, calling General Navigation screen
+State006 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved TURN instruction
+Instructor has recieved  elaboration
+2 pieces of data to parse
+Instructor has recieved data
+LEFT GREATORMANDSSTREET 
+State006 Deactivated
+Instruction Command passed on state 6
+Turn screen call passed on state 6
+Turn screen instruction validated by instructional command tree, calling turn screen
+State007 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved FINI instruction
+Instructor has recieved  elaboration
+1 pieces of data to parse
+Instructor has recieved data
+GRANGEDRIVE 
+State007 Deactivated
+Instruction Command passed on state 7
+Go to emd screen call passed on state 7
+Finish Navigation instruction validated by instructional command tree, calling Finish Screen
+State008 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State008 Deactivated
+Instruction Command passed on state 8
+Go to Clock call passed on state 8
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTRC instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Instruction Command passed on state 4
+Recieve Bluetooth call passed on state 4
+Bluetooth recieve instruction validated by the Instructional command tree, calling bt recieve screen
+State005 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved STNV instruction
+Instructor has recieved  elaboration
+4 pieces of data to parse
+Instructor has recieved data
+DOGLANE 64 RIGHT CATSTREET 
+State005 Deactivated
+Instruction Command passed on state 5
+Start Navigation call passed on state 5
+Start navigation command validated by instructional command tree, calling General Navigation screen
+State006 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved TURN instruction
+Instructor has recieved  elaboration
+2 pieces of data to parse
+Instructor has recieved data
+RIGHT CATSTREET 
+State006 Deactivated
+Instruction Command passed on state 6
+Turn screen call passed on state 6
+Turn screen instruction validated by instructional command tree, calling turn screen
+State007 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved FINI instruction
+Instructor has recieved  elaboration
+1 pieces of data to parse
+Instructor has recieved data
+CATSTREET 
+State007 Deactivated
+Instruction Command passed on state 7
+Go to emd screen call passed on state 7
+Finish Navigation instruction validated by instructional command tree, calling Finish Screen
+State008 Activated
+Instructor has submitted State Change Call
+Refresh on state 8
+Instructor has submitted a State refresh Call
+Mon Feb 04 18:06:37 2019
+
+Program initialised 
+State001 is initialised
+State002 is initialised
+State003 is initialised
+State004 is initialised
+State005 is initialised
+State006 is initialised
+State007 is initialised
+State008 is initialised
+State009 is initialised
+State010 is initialised
+State000 is initialised
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State002 Deactivated
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+State003 Deactivated
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved EXEC command
+Instructor has recieved BATR instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Executive Command passed on state 4
+Low Battery instructional call passed on state 4
+Low battery instruction validated by exectuive command tree, calling shut down state
+State001 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State001 Deactivated
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State002 Deactivated
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+State003 Deactivated
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTRC instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Instruction Command passed on state 4
+Recieve Bluetooth call passed on state 4
+Bluetooth recieve instruction validated by the Instructional command tree, calling bt recieve screen
+State005 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved STNV instruction
+Instructor has recieved  elaboration
+4 pieces of data to parse
+Instructor has recieved data
+EXHIBITIONROAD 45 LEFT GRANDEDRIVE 
+State005 Deactivated
+Instruction Command passed on state 5
+Start Navigation call passed on state 5
+Start navigation command validated by instructional command tree, calling General Navigation screen
+State006 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved TURN instruction
+Instructor has recieved  elaboration
+2 pieces of data to parse
+Instructor has recieved data
+LEFT GREATORMANDSSTREET 
+State006 Deactivated
+Instruction Command passed on state 6
+Turn screen call passed on state 6
+Turn screen instruction validated by instructional command tree, calling turn screen
+State007 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved FINI instruction
+Instructor has recieved  elaboration
+1 pieces of data to parse
+Instructor has recieved data
+GRANGEDRIVE 
+State007 Deactivated
+Instruction Command passed on state 7
+Go to emd screen call passed on state 7
+Finish Navigation instruction validated by instructional command tree, calling Finish Screen
+State008 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State008 Deactivated
+Instruction Command passed on state 8
+Go to Clock call passed on state 8
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTRC instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Instruction Command passed on state 4
+Recieve Bluetooth call passed on state 4
+Bluetooth recieve instruction validated by the Instructional command tree, calling bt recieve screen
+State005 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved STNV instruction
+Instructor has recieved  elaboration
+4 pieces of data to parse
+Instructor has recieved data
+DOGLANE 64 RIGHT CATSTREET 
+State005 Deactivated
+Instruction Command passed on state 5
+Start Navigation call passed on state 5
+Start navigation command validated by instructional command tree, calling General Navigation screen
+State006 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved TURN instruction
+Instructor has recieved  elaboration
+2 pieces of data to parse
+Instructor has recieved data
+RIGHT CATSTREET 
+State006 Deactivated
+Instruction Command passed on state 6
+Turn screen call passed on state 6
+Turn screen instruction validated by instructional command tree, calling turn screen
+State007 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved FINI instruction
+Instructor has recieved  elaboration
+1 pieces of data to parse
+Instructor has recieved data
+CATSTREET 
+State007 Deactivated
+Instruction Command passed on state 7
+Go to emd screen call passed on state 7
+Finish Navigation instruction validated by instructional command tree, calling Finish Screen
+State008 Activated
+Instructor has submitted State Change Call
+Refresh on state 8
+Instructor has submitted a State refresh Call
+Mon Feb 04 18:07:41 2019
+
+Program initialised 
+State001 is initialised
+State002 is initialised
+State003 is initialised
+State004 is initialised
+State005 is initialised
+State006 is initialised
+State007 is initialised
+State008 is initialised
+State009 is initialised
+State010 is initialised
+State000 is initialised
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State002 Deactivated
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+State003 Deactivated
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved EXEC command
+Instructor has recieved BATR instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Executive Command passed on state 4
+Low Battery instructional call passed on state 4
+Low battery instruction validated by exectuive command tree, calling shut down state
+State001 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State001 Deactivated
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State002 Deactivated
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+State003 Deactivated
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTRC instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Instruction Command passed on state 4
+Recieve Bluetooth call passed on state 4
+Bluetooth recieve instruction validated by the Instructional command tree, calling bt recieve screen
+State005 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved STNV instruction
+Instructor has recieved  elaboration
+4 pieces of data to parse
+Instructor has recieved data
+EXHIBITIONROAD 45 LEFT GRANDEDRIVE 
+State005 Deactivated
+Instruction Command passed on state 5
+Start Navigation call passed on state 5
+Start navigation command validated by instructional command tree, calling General Navigation screen
+State006 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved TURN instruction
+Instructor has recieved  elaboration
+2 pieces of data to parse
+Instructor has recieved data
+LEFT GREATORMANDSSTREET 
+State006 Deactivated
+Instruction Command passed on state 6
+Turn screen call passed on state 6
+Turn screen instruction validated by instructional command tree, calling turn screen
+State007 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved FINI instruction
+Instructor has recieved  elaboration
+1 pieces of data to parse
+Instructor has recieved data
+GRANGEDRIVE 
+State007 Deactivated
+Instruction Command passed on state 7
+Go to emd screen call passed on state 7
+Finish Navigation instruction validated by instructional command tree, calling Finish Screen
+State008 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State008 Deactivated
+Instruction Command passed on state 8
+Go to Clock call passed on state 8
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTRC instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Instruction Command passed on state 4
+Recieve Bluetooth call passed on state 4
+Bluetooth recieve instruction validated by the Instructional command tree, calling bt recieve screen
+State005 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved STNV instruction
+Instructor has recieved  elaboration
+4 pieces of data to parse
+Instructor has recieved data
+DOGLANE 64 RIGHT CATSTREET 
+State005 Deactivated
+Instruction Command passed on state 5
+Start Navigation call passed on state 5
+Start navigation command validated by instructional command tree, calling General Navigation screen
+State006 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved TURN instruction
+Instructor has recieved  elaboration
+2 pieces of data to parse
+Instructor has recieved data
+RIGHT CATSTREET 
+State006 Deactivated
+Instruction Command passed on state 6
+Turn screen call passed on state 6
+Turn screen instruction validated by instructional command tree, calling turn screen
+State007 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved FINI instruction
+Instructor has recieved  elaboration
+1 pieces of data to parse
+Instructor has recieved data
+CATSTREET 
+State007 Deactivated
+Instruction Command passed on state 7
+Go to emd screen call passed on state 7
+Finish Navigation instruction validated by instructional command tree, calling Finish Screen
+State008 Activated
+Instructor has submitted State Change Call
+Refresh on state 8
+Instructor has submitted a State refresh Call
+Mon Feb 04 18:11:00 2019
+
+Program initialised 
+State001 is initialised
+State002 is initialised
+State003 is initialised
+State004 is initialised
+State005 is initialised
+State006 is initialised
+State007 is initialised
+State008 is initialised
+State009 is initialised
+State010 is initialised
+State000 is initialised
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State002 Deactivated
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+State003 Deactivated
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved EXEC command
+Instructor has recieved BATR instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Executive Command passed on state 4
+Low Battery instructional call passed on state 4
+Low battery instruction validated by exectuive command tree, calling shut down state
+State001 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State001 Deactivated
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State002 Deactivated
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+State003 Deactivated
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTRC instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Instruction Command passed on state 4
+Recieve Bluetooth call passed on state 4
+Bluetooth recieve instruction validated by the Instructional command tree, calling bt recieve screen
+State005 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved STNV instruction
+Instructor has recieved  elaboration
+4 pieces of data to parse
+Instructor has recieved data
+EXHIBITIONROAD 45 LEFT GRANDEDRIVE 
+State005 Deactivated
+Instruction Command passed on state 5
+Start Navigation call passed on state 5
+Start navigation command validated by instructional command tree, calling General Navigation screen
+State006 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved TURN instruction
+Instructor has recieved  elaboration
+2 pieces of data to parse
+Instructor has recieved data
+LEFT GREATORMANDSSTREET 
+State006 Deactivated
+Instruction Command passed on state 6
+Turn screen call passed on state 6
+Turn screen instruction validated by instructional command tree, calling turn screen
+State007 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved FINI instruction
+Instructor has recieved  elaboration
+1 pieces of data to parse
+Instructor has recieved data
+GRANGEDRIVE 
+State007 Deactivated
+Instruction Command passed on state 7
+Go to emd screen call passed on state 7
+Finish Navigation instruction validated by instructional command tree, calling Finish Screen
+State008 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State008 Deactivated
+Instruction Command passed on state 8
+Go to Clock call passed on state 8
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTRC instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Instruction Command passed on state 4
+Recieve Bluetooth call passed on state 4
+Bluetooth recieve instruction validated by the Instructional command tree, calling bt recieve screen
+State005 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved STNV instruction
+Instructor has recieved  elaboration
+4 pieces of data to parse
+Instructor has recieved data
+DOGLANE 64 RIGHT CATSTREET 
+State005 Deactivated
+Instruction Command passed on state 5
+Start Navigation call passed on state 5
+Start navigation command validated by instructional command tree, calling General Navigation screen
+State006 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved TURN instruction
+Instructor has recieved  elaboration
+2 pieces of data to parse
+Instructor has recieved data
+RIGHT CATSTREET 
+State006 Deactivated
+Instruction Command passed on state 6
+Turn screen call passed on state 6
+Turn screen instruction validated by instructional command tree, calling turn screen
+State007 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved FINI instruction
+Instructor has recieved  elaboration
+1 pieces of data to parse
+Instructor has recieved data
+CATSTREET 
+State007 Deactivated
+Instruction Command passed on state 7
+Go to emd screen call passed on state 7
+Finish Navigation instruction validated by instructional command tree, calling Finish Screen
+State008 Activated
+Instructor has submitted State Change Call
+Refresh on state 8
+Instructor has submitted a State refresh Call
+Refresh on state 8
+Instructor has submitted a State refresh Call
+Mon Feb 04 18:25:34 2019
+
+Program initialised 
+State001 is initialised
+State002 is initialised
+State003 is initialised
+State004 is initialised
+State005 is initialised
+State006 is initialised
+State007 is initialised
+State008 is initialised
+State009 is initialised
+State010 is initialised
+State000 is initialised
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State002 Deactivated
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+State003 Refreshed
+Refresh on state 3
+Instructor has submitted a State refresh Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+State003 Deactivated
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Refresh on state 4
+Instructor has submitted a State refresh Call
+Instructor has recieved EXEC command
+Instructor has recieved BATR instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Executive Command passed on state 4
+Low Battery instructional call passed on state 4
+Low battery instruction validated by exectuive command tree, calling shut down state
+State001 Activated
+Instructor has submitted State Change Call
+State001 Refreshed
+Refresh on state 1
+Instructor has submitted a State refresh Call
+Instructor has recieved INST command
+Instructor has recieved PWRN instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State001 Deactivated
+Instruction Command passed on state 1
+Power on call passed on state 1
+Power on instruction validated by Instructional command tree, calling boot screen
+State002 Activated
+Instructor has submitted State Change Call
+State002 Refreshed
+Refresh on state 2
+Instructor has submitted a State refresh Call
+Instructor has recieved INST command
+Instructor has recieved BTWT instruction
+Instructor has recieved  elaboration
+Invalid or N/A data stream:
+N/A
+State002 Deactivated
+Instruction Command passed on state 2
+Bluetooth Wait call passed on state 2
+Bluetooth wait call validated by Instructional command tree, calling Bluetooth wait screen
+State003 Activated
+Instructor has submitted State Change Call
+State003 Refreshed
+Refresh on state 3
+Instructor has submitted a State refresh Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+1 pieces of data to parse
+Instructor has recieved data
+READYTONAVIGATE 
+State003 Deactivated
+Instruction Command passed on state 3
+Go to Clock call passed on state 3
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Refresh on state 4
+Instructor has submitted a State refresh Call
+Instructor has recieved INST command
+Instructor has recieved BTRC instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Instruction Command passed on state 4
+Recieve Bluetooth call passed on state 4
+Bluetooth recieve instruction validated by the Instructional command tree, calling bt recieve screen
+State005 Activated
+Instructor has submitted State Change Call
+Refresh on state 5
+Instructor has submitted a State refresh Call
+Instructor has recieved INST command
+Instructor has recieved STNV instruction
+Instructor has recieved  elaboration
+4 pieces of data to parse
+Instructor has recieved data
+EXHIBITIONROAD 45 LEFT GRANDEDRIVE 
+State005 Deactivated
+Instruction Command passed on state 5
+Start Navigation call passed on state 5
+Start navigation command validated by instructional command tree, calling General Navigation screen
+State006 Activated
+Instructor has submitted State Change Call
+Refresh on state 6
+Instructor has submitted a State refresh Call
+Instructor has recieved INST command
+Instructor has recieved TURN instruction
+Instructor has recieved  elaboration
+2 pieces of data to parse
+Instructor has recieved data
+LEFT GREATORMANDSSTREET 
+State006 Deactivated
+Instruction Command passed on state 6
+Turn screen call passed on state 6
+Turn screen instruction validated by instructional command tree, calling turn screen
+State007 Activated
+Instructor has submitted State Change Call
+Refresh on state 7
+Instructor has submitted a State refresh Call
+Instructor has recieved INST command
+Instructor has recieved FINI instruction
+Instructor has recieved  elaboration
+1 pieces of data to parse
+Instructor has recieved data
+GRANGEDRIVE 
+State007 Deactivated
+Instruction Command passed on state 7
+Go to emd screen call passed on state 7
+Finish Navigation instruction validated by instructional command tree, calling Finish Screen
+State008 Activated
+Instructor has submitted State Change Call
+Refresh on state 8
+Instructor has submitted a State refresh Call
+Instructor has recieved INST command
+Instructor has recieved CLKS instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State008 Deactivated
+Instruction Command passed on state 8
+Go to Clock call passed on state 8
+Clock screen call validated by Instructional command tree, calling Clock screen
+State004 Activated
+Instructor has submitted State Change Call
+Refresh on state 4
+Instructor has submitted a State refresh Call
+Instructor has recieved INST command
+Instructor has recieved BTRC instruction
+Instructor has recieved NORM elaboration
+Invalid or N/A data stream:
+N/A
+State004 Deactivated
+Instruction Command passed on state 4
+Recieve Bluetooth call passed on state 4
+Bluetooth recieve instruction validated by the Instructional command tree, calling bt recieve screen
+State005 Activated
+Instructor has submitted State Change Call
+Refresh on state 5
+Instructor has submitted a State refresh Call
+Instructor has recieved INST command
+Instructor has recieved STNV instruction
+Instructor has recieved  elaboration
+4 pieces of data to parse
+Instructor has recieved data
+DOGLANE 64 RIGHT CATSTREET 
+State005 Deactivated
+Instruction Command passed on state 5
+Start Navigation call passed on state 5
+Start navigation command validated by instructional command tree, calling General Navigation screen
+State006 Activated
+Instructor has submitted State Change Call
+Refresh on state 6
+Instructor has submitted a State refresh Call
+Instructor has recieved INST command
+Instructor has recieved TURN instruction
+Instructor has recieved  elaboration
+2 pieces of data to parse
+Instructor has recieved data
+RIGHT CATSTREET 
+State006 Deactivated
+Instruction Command passed on state 6
+Turn screen call passed on state 6
+Turn screen instruction validated by instructional command tree, calling turn screen
+State007 Activated
+Instructor has submitted State Change Call
+Refresh on state 7
+Instructor has submitted a State refresh Call
+Instructor has recieved INST command
+Instructor has recieved FINI instruction
+Instructor has recieved  elaboration
+1 pieces of data to parse
+Instructor has recieved data
+CATSTREET 
+State007 Deactivated
+Instruction Command passed on state 7
+Go to emd screen call passed on state 7
+Finish Navigation instruction validated by instructional command tree, calling Finish Screen
+State008 Activated
+Instructor has submitted State Change Call
+Refresh on state 8
+Instructor has submitted a State refresh Call
+Refresh on state 8
+Instructor has submitted a State refresh Call
+Refresh on state 8
+Instructor has submitted a State refresh Call
