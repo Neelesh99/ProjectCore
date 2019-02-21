@@ -369,6 +369,7 @@ int main() {
     }
     I.RefreshInstructionSM();
     I.RefreshInstructionSM();
+    std::cout << "Checkpoint" << std::endl;
     delete Com;
     delete stat;
     return 0;

@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/CommuncationsBuffer.cpp
+CommuncationsBuffer.hpp
+C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/CommuncationsBuffer.hpp
+Communication.hpp
+C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/Communication.hpp
+string
+-
+cstring
+-
+
 C:/Users/Neelesh/CLionProject/ProjectCoreGit/ProjectCore/CommuncationsBuffer.hpp
 iostream
 -

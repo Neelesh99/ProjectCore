@@ -26,7 +26,7 @@ CommunicationsBuffer::CommunicationsBuffer() {
    buffer.push(StartUp);
 }
 CommunicationsBuffer::~CommunicationsBuffer() {
-   delete StartUp;
+   //delete StartUp;
 }
 bool CommunicationsBuffer::isEmpty() {
     if(buffer.size() == 0){

@@ -74,7 +74,7 @@ void Instructor::FormatCommunication() {
             char temp = 'o';
             int size = 0;
             int endpoint;
-            while (temp != 'd') {
+            while (temp != '/') {
                 size++;
                 index++;
                 temp = data[index];
